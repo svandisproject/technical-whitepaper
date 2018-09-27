@@ -63,7 +63,6 @@ This Whitepaper, any portion or copy thereof shall not be brought, transmitted o
   * [Data Analytics and Reviewers](#data-analytics-and-reviewers)
   * [Marketplace](#marketplace)
   * [Svandis Indices](#svandis-indices)
-  * [Indices Builder](#indices-builder)
 - [Data Mining Architecture](#data-mining-architecture)
   * [Data Mining Workers](#data-mining-workers)
   * [Machine Learning & Sentiment Analysis](#machine-learning-and-sentiment-analysis)
@@ -81,12 +80,11 @@ This Whitepaper, any portion or copy thereof shall not be brought, transmitted o
 
 # Features
 
-## Screeners
+## ICO and Token Sale Screener
 Svandis screeners will allow users to filter cryptoassets by numerous parameters using customised criteria to identify the best investment opportunities. Many relevant screeners already exist and are available via traditional financial platforms. It is therefore necessary to adjust existing financial tools, like screeners, to the crypto market.
 
 The screeners API will be available for use in algorithmic trading strategies. Speed will be an advantage for users who want to use statistics for momentum-based strategy and statistical arbitrage, or news for event-driven strategy through a text analytics API. 
 
-## ICO and Token Sale Screener
 The ICO and token sale screener will sort and filter past and future ICO and token sales according to various parameters. A wide range of criteria will be available and customisable, providing myriad ways to fine-tune the screener. A full description of each ICO and token sale will be available, including the latest news about it.
 
 <details><summary>Examples of filters available:</summary><br> 
@@ -126,8 +124,7 @@ The ICO and token sale screener will sort and filter past and future ICO and tok
   * Twitter followers
   * Country
   * Airdrops
-</details>
-
+</details><br>
 
 We believe that the way ICOs and tokens sales are managed will be improved in the near future. The Svandis ecosystem will have standards in place for data verification, processing, and analytics. Companies will increasingly make their data more accessible to enhance their competitive position within the crypto space. As the number of parameters involved when buying a particular token also increases, the Svandis screeners will be adapted to reflect those continuous changes. 
 
@@ -178,8 +175,6 @@ Significance Level: Old (unimportant updates and additions), ordinary, important
 
 Crypto-market traders will be able to customise their newsfeed to see only the most important news on the assets that are of interest to them. For example, if a trader is interested in a token that has just been issued after a token sale, and is not yet listed on any of the major exchanges, they will be able to configure their newsfeed in such a way that they will receive news about this particular token in regards to exchange listings. As the popularity of the Svandis platform grows the goal is to sign exclusive contracts with companies, exchanges and other news sources in order to publish news releases first at a predetermined time, in a single place and without information leaks.
 
-
-## Visualisation Tools
 
 ## Charts
 Charts will form an integral part of the Svandis platform. Whether a cryptocurrency is selected from the screener, index, heatmap or  group, a dedicated chart page will offer actionable information on a diverse range of technical indicators and catalysts. Svandis' charts will combine different types of data to provide actionable information and insights to professional traders who want to take a step back and analyse the elements that influence their investments in greater depth. With the ergonomics of Svandis tools a priority, close attention will be focused on all chart-related features, to optimise the user experience and with it the efficiency of the work of investors.
@@ -253,11 +248,9 @@ Levels of access to our products will be published after the release of products
 ## Marketplace
 The Svandis Marketplace will provide third-party access via the Svandis API. Svandis is planning to provide the access to Svandis products for corporate clients, as well as to Svandis Partners products for retail and corporate clients. This feature will help to distribute products of Svandis and company's partners.
 
-## Indices
 ## Svandis Indices
 The Svandis indices will be developed by the Internal Research and Analysis Team. For example, a major Svandis index will be an index of 30 cryptoassets issued by the highest ranked companies. The goal is to establish a leading performance indicator of largest cryptocurrencies and tokens in terms of market capitalisation. Other Svandis indices may include a volatility index showing a projected 30-day market volatility.
 
-## Indices Builder
 With Svandis, users will be able to formulate their own indices. This feature will allow the cryptocurrency market to be divided into user-defined subgroups for the tracking of price and volume changes. The Customised Index Builder will include varying parameters.
 
 # Data Mining Architecture
