@@ -2,6 +2,8 @@
 
 **September 26, 2018**
 
+![Svandis](/images/image1.png?raw=true "Svandis")
+
 **Abstract:** 
 Svandis is developing a platform for crypto market participants, providing leading financial research, analytical and visualisation tools for anyone actively involved in the cryptocurrency space: short- and long-term traders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sales contributors, and exchanges. 
 
