@@ -85,9 +85,11 @@ Svandis screeners will allow users to filter cryptoassets by numerous parameters
 
 The screeners API will be available for use in algorithmic trading strategies. Speed will be an advantage for users who want to use statistics for momentum-based strategy and statistical arbitrage, or news for event-driven strategy through a text analytics API. 
 
+We believe that the way ICOs and tokens sales are managed will be improved in the near future. The Svandis ecosystem will have standards in place for data verification, processing, and analytics. Companies will increasingly make their data more accessible to enhance their competitive position within the crypto space. As the number of parameters involved when buying a particular token also increases, the Svandis screeners will be adapted to reflect those continuous changes. 
+
 The ICO and token sale screener will sort and filter past and future ICO and token sales according to various parameters. A wide range of criteria will be available and customisable, providing myriad ways to fine-tune the screener. A full description of each ICO and token sale will be available, including the latest news about it.
 
-<details><summary>Examples of filters available:</summary><br> 
+<details><summary>Expand examples of filters available:</summary><br> 
 
   * Token standard
   * Country restrictions
@@ -126,12 +128,11 @@ The ICO and token sale screener will sort and filter past and future ICO and tok
   * Airdrops
 </details><br>
 
-We believe that the way ICOs and tokens sales are managed will be improved in the near future. The Svandis ecosystem will have standards in place for data verification, processing, and analytics. Companies will increasingly make their data more accessible to enhance their competitive position within the crypto space. As the number of parameters involved when buying a particular token also increases, the Svandis screeners will be adapted to reflect those continuous changes. 
 
 ## Cryptocurrency and Token Screener
 The screener will sort and filter cryptocurrencies and tokens according to numerous parameters, both fundamental and technical. Brief information about the cryptocurrency or company will be posted on each cryptocurrency and token page, along with a chart showing technical indicators and news gathered from various resources. A vast range of criteria will be available to fine-tune to different parameters, providing thousands of ways to find and filter cryptocurrencies and tokens. 
 
-<details><summary>Examples of filters available:</summary><br> 
+<details><summary>Expand examples of filters available:</summary><br> 
 
   * Exchange(s)
   * Capitalisation
