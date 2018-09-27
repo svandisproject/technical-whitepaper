@@ -1,8 +1,7 @@
+![Svandis](/images/image1.png?raw=true "Svandis")
 # Svandis.io Technical Whitepaper
 
 **September 26, 2018**
-
-![Svandis](/images/image1.png?raw=true "Svandis" =250x)
 
 **Abstract:** 
 Svandis is developing a platform for crypto market participants, providing leading financial research, analytical and visualisation tools for anyone actively involved in the cryptocurrency space: short- and long-term traders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sales contributors, and exchanges. 
@@ -219,12 +218,20 @@ Every Svandis feature will have a customisable user-interface to arrange and pre
 
 ## The Svandis Ecosystem
 
+![Ecosystem](/images/image2.png?raw=true "Ecosystem")
+
 The power of the community is unparalleled in the cryptomarket and may increase the capability to detect opportunities or report organised information in a quick and efficient manner.
 The Research Community and the Svandis Analytics Team are the central players in the Svandis ecosystem. Their roles, and in particular the Community’s role, will enable traders using the Svandis platform to receive all necessary crypto-data in one place before the majority of market participants.
 Svandis Research Community - Trusted Reviewer and Data Verification
 Svandis aims to create professional development opportunities for the most active community members who wish to complete data checks on ICOs and token sales. The goal is to check the validity of several categories of information published on an ICO or token sale. Using a standardised template to ensure consistency in the presentation of data, a checklist on various points will be available to verify and share with the community whether the given project is (1) legitimate and (2) technically feasible over a realistic period of time. Applying the diversity of expertise available among Svandis users will help target high potential projects, as well as share precautionary opinions on others. We believe that a community of reviewers can look at important elements, such as company and team backgrounds, and ICO metrics.
 This dynamic system will be implemented in two phases. Phase 1 aims to develop a critical mass of trusted reviewers; all work will be verified by the Svandis Analysis Team to double check every piece of information. All participation will be rewarded with SVN tokens or higher additional access levels to the reviewers. Each item of valuable information will result in awarded reputation points to reviewers, as a means of building a reputable group of relevant experts. 
 During Phase 2, Svandis will encourage users to double-check the analysis of previous reviewers. For every 10 users who approve a piece of data/information, the reviewer will gain a reputation point and consequent validation of their participation. Once they are approved over 10 times by over 10 separate users (i.e., ten sets of approvals by ten other users), they will be classified as a trusted reviewer. Over time, the best reviewers will be integrated into the Svandis Analysis Team.
+
+![Ecosystem](/images/image3.png?raw=true "Ecosystem")
+
+![Ecosystem](/images/image4.png?raw=true "Ecosystem")
+
+![Ecosystem](/images/image5.png?raw=true "Ecosystem")
 
 
 ## Svandis DataMining App
@@ -233,6 +240,10 @@ Receiving tasks from the Svandis command server, the DataMining App will grab we
 
 The type of data a miner’s device will grab will depend on the strength of their internet connection and device’s computing power. For example, those with a faster internet connection and a computer of higher processing power may grab real-time data, which should be more readily available to users in the Svandis ecosystem (e.g., prices, volume, news, etc.); those with a slower internet connection and a device of lower processing power may grab historical data.
 
+
+![DataMining](/images/image6.png?raw=true "Datamining")
+
+![DataMining](/images/image7.png?raw=true "Datamining")
 
 ## Svandis Data Analytics and Reviewers
 The internal Svandis Analytics Team will provide the expertise necessary to conduct analysis and approve the content that is offered to users of the service. Like users in the Research Community, the Analytics Team will submit and verify data on cryptocurrencies and tokens.
