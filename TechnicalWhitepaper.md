@@ -16,6 +16,7 @@ Every feature proposed is part of a strategic vision to enhance the user’s ove
 
 <details><summary>Expand Svandis Features: </summary><br>
 
+
 1. ICO and token-sale screener
 2. Cryptocurrency and token screener
 3. Newsfeed
@@ -31,7 +32,7 @@ Every feature proposed is part of a strategic vision to enhance the user’s ove
 13. Svandis indices
 14. Indices builder
 15. Customised user interface
-</details>
+</details><br>
 
 The Svandis Community will be involved in producing crowdsourced information of value through the DataMining app, receiving Svandis tokens (SVN) for their participation. In addition, the Svandis Team will certify reviewers and external analysts to complete data verification regarding ICO and token sale projects and teams.
 
