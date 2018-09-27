@@ -14,7 +14,7 @@ The Svandis platform provides leading financial research, analytical and visuali
 
 Every feature proposed is part of a strategic vision to enhance the user’s overview of the cryptocurrency market. Svandis tools generate a customisable way to cross-check a wide range of data and gain a perspective for different values. 
 
-Svandis will include the following features: 
+<details><summary>Expand Svandis Features: </summary><br>
 
 1. ICO and token-sale screener
 2. Cryptocurrency and token screener
@@ -31,6 +31,7 @@ Svandis will include the following features:
 13. Svandis indices
 14. Indices builder
 15. Customised user interface
+</details>
 
 The Svandis Community will be involved in producing crowdsourced information of value through the DataMining app, receiving Svandis tokens (SVN) for their participation. In addition, the Svandis Team will certify reviewers and external analysts to complete data verification regarding ICO and token sale projects and teams.
 
