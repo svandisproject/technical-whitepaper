@@ -274,39 +274,6 @@ With Svandis, users will be able to formulate their own indices. This feature wi
 ## Machine Learning and Sentiment Analysis
 ## Svandis Database
 # Blockchain Architecture
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant UserIdentity
-
-Note left of User: User has private key <br/>in metamask, we <br/> detect this and can <br/> associate their id <br/> with that key <br/> (In future we may <br/> move to Universal <br/> Login)
-    participant Ecosystem
-    participant Svandis
-    User ->> UserIdentity: 1) User creates their UserIdentity type EIP725/735, metamask account holding private key (On Blockchain)
-    User->> Svandis: 2) Collect information and KYC the user
-    Svandis -->> UserIdentity: 3) Submit Claims about a user (Kyc status, researcher/mediator status, social media claims, etc)  (On Blockchain)
-   User ->> Svandis: 4) Users submit new ICO projects or fields they think should change in existing projects to backend
-   loop Random Process
-        Svandis->> Svandis: 5) Backend processes request, selects random online users to submit
-    end
-    Svandis-->> User: 6) Randomnly selected users accept Svandis notification and are sent data to be validated or researched. 
-    User ->> Svandis: 7) On the user side, users send a *signed* message of key/value pairs with timestamp as requested from Svandis.
- loop Consensus
-        Svandis->> Svandis: 8) Server side, Svandis processes which random users met consensus or did not. 
-    end
-    Svandis -->> Ecosystem: 9) Svandis org submits a new or updated pieces of Svandis Data reaching consensus in bulk. (On Blockchain)
-Note left of Svandis: In addition to adding <br/> new hash of  <br/>structured data, <br/> users signed msgs <br/> are confirmed   <br/>for their identity and <br/> users that met <br/> consensus are flagged
- loop Rewards and Rating
-        Ecosystem->> Ecosystem: 10) Based on consensus result a user rating will be updated in a UserRegistry (On Blockchain)
-    end
-    Ecosystem -->> UserIdentity: 11) Based on consensus, SVN token rewards will be awarded to user accounts.
-Note left of Ecosystem:  Fast token rewards <br/> will be enabled by <br/> Micro Raiden <br/> Technology and users <br/> can "close channel" <br/>  to cash out SVN to<br/> their own account
- loop ICO -> Token
-        Ecosystem->> Ecosystem: 11) Based on input from a mediator, an ICO project can b
-    end
-```
-
 ## ERC 725/735 Identity
 ## Decentralization of Research Community
 ## Data Signing and Screeners
