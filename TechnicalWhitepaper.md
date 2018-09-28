@@ -8,7 +8,7 @@ Svandis is developing a platform for crypto market participants, providing leadi
 
 The Svandis ecosystem is a collection of powerful tools, analytics, and indicators for professional traders in need of real-time, actionable data and analyses. Beginners will find it easy, professional traders will find it comprehensive. The Svandis ecosystem aggregates data from a wide range of sources into one place, transforming raw data into reliable and valuable information, and covering professional crypto market participants with up-to-the-minute news and updates filtered by the Svandis research community and analysts through a web-based application. 
 
-Svandis provides users with a greater understanding of market conditions and trends, as well as a comprehensive platform for the evaluation of fundamentals behind cryptocurrency initiatives, e.g., initial coin offerings (ICOs) and token sales. Svandis aggregates data from a variety of sources; transforming data into reliable and actionable information for professional traders. 
+Svandis provides users with a greater understanding of market conditions and trends, as well as a comprehensive platform for the evaluation of fundamentals behind cryptocurrency initiatives, e.g., initial coin offerings (ICOs) and token sales. Svandis aggregates data from a variety of sources; transforming data into reliable and actionable information for professional traders and beginners alike. 
 
 The Svandis platform provides leading financial research, analytical and visualisation tools for anyone actively involved in the space: short-term and swing traders, traditional holders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sale contributors, and exchanges.
 
@@ -34,21 +34,21 @@ Every feature proposed is part of a strategic vision to enhance the user’s ove
 15. Customised user interface
 </details><br>
 
-The Svandis Community will be involved in producing crowdsourced information of value through the DataMining app, receiving Svandis tokens (SVN) for their participation. In addition, the Svandis Team will certify reviewers and external analysts to complete data verification regarding ICO and token sale projects and teams.
+The Svandis Research Community will be involved in producing crowdsourced information of value through the DataMining app, receiving Svandis tokens (SVN) for their participation. In addition, the Svandis Team will certify reviewers and external analysts to complete data verification regarding ICO and token sale projects and teams.
 
 Svandis is a team of market traders, crypto enthusiasts, investors, engineers, and statisticians.  In crypto trading, timing is everything. Svandis aims to incorporate best practice from financial platforms to address the needs of everyone who is involved in the new era of cryptocurrency trading.
 
 
 **DISCLAIMER:** 
-This Whitepaper does not constitute an offer to sell or invitation to purchase any securities of any nature whatsoever, and the content of this presentation is not intended to constitute legal, commercial or tax advice. Some of the declarations contained in this WP constitute forward-looking statements and are subject to change.
+This Technical Whitepaper does not constitute an offer to sell or invitation to purchase any securities of any nature whatsoever, and the content of this presentation is not intended to constitute legal, commercial or tax advice. Some of the declarations contained in this WP constitute forward-looking statements and are subject to change.
  
 The Svandis Whitepaper is intended for preparation, description and information purposes only, and does not constitute an offer or solicitation to buy or sell any securities or invest in any of all types of financial instruments. This document is not compiled in compliance with, and is not subject to, the laws and regulations of any jurisdiction created to protect the investors. Nothing published by Svandis or one any of its subsidiaries should be taken as investment advice. Please consult an appropriate licensed professional before engaging in any financial transaction, including any investment related to the ideas or opinions expressed, in the past, present or future, by Svandis or any future entity working for the parent entity. The information document below should not be seen as exhaustive and does not imply any element of a contractual relationship. Its sole aim is to submit relevant and reasonable information to potential token holders so that they can determine whether they should undertake an in-depth analysis of the company before intending to acquire tokens.
  
 The Svandis token, or SVN, is a cryptographic token used to access the Svandis platform. In no circumstances should the SVN tokens be confused with security tokens. All SVN tokens purchases are non-refundable. SVN token ownership does not represent any future governance of the platform or Svandis. By purchasing the SVN token, you will be deemed to have carefully reviewed the purchase terms. In addition, you represent and warrant that you are of sufficient legal age to be bound by these terms and that you may not under any circumstances hold the company, its representatives, founders, affiliates or advisors, either now or in the future, liable for any loss or damage arising from the purchase or sale of the SVN token. The purchaser is solely and entirely responsible for all risks associated with the purchase of the SVN token, and warrants that this purchase is made to support the project development activities and not to make a speculative investment. Svandis recognises that the purchaser will have to meet KYC (Know Your Customer) and AML (Anti-Money Laundering) requirements when buying the SVN token. Svandis expressly disclaims any liability or responsibility for any direct or indirect loss or damage of any nature whatsoever, relating directly or indirectly to: (1) the reliance on any information content presented in this document, (2) any error, omission or inaccuracy relative to the information herein or (3) any action deriving from the information herein.
 
-This Whitepaper, any portion or copy thereof shall not be brought, transmitted or distributed in any countries where the distribution or diffusion of the token sale or the initial coins offer described within the Whitepaper is prohibited or restricted. You are not eligible and you cannot buy any Svandis token if you are a citizen, resident or green card holder of the United States of America, or a resident of the People’s Republic of China, or Singapore.
+This Technical Whitepaper, any portion or copy thereof shall not be brought, transmitted or distributed in any countries where the distribution or diffusion of the token sale or the initial coins offer described within the Technical Whitepaper is prohibited or restricted. You are not eligible and you cannot buy any Svandis token if you are a citizen, resident or green card holder of the United States of America, or a resident of the People’s Republic of China, or Singapore.
 
-**Technical Whitepaper**
+#Table of Contents
 <!-- MarkdownTOC depth=4 autolink=true bracket=round list_bullets="-*+" -->
 
 - [Introduction](#introduction)
@@ -168,6 +168,7 @@ The screener will sort and filter cryptocurrencies and tokens according to numer
 
 
 ## Newsfeed
+### Description
 Svandis is developing a customised newsfeed for the cryptocurrency market. Our goal is to aggregate crypto-related news across a variety of sources that has been shown to significantly influence the market, including websites, Twitter, Slack, Reddit, Telegram, Mediums, and other blogs. We aim to enable traders with this information in essentially real time. 
 
 With access to the Svandis newsfeed, crypto-market traders will no longer need to subscribe to hundreds of Twitter accounts and newsletters, keep numerous tabs opened in their web browser, alternate between sources, etc. They will receive all the news they need in one place, and will be among the first to know when the market is moving. Svandis will track thousands of sites both automatically and manually, downloading and highlighting the most important news using machine learning, language processing and the human insight of professional analysts and journalists.
@@ -179,6 +180,13 @@ Significance Level: Old (unimportant updates and additions), ordinary, important
 
 Crypto-market traders will be able to customise their newsfeed to see only the most important news on the assets that are of interest to them. For example, if a trader is interested in a token that has just been issued after a token sale, and is not yet listed on any of the major exchanges, they will be able to configure their newsfeed in such a way that they will receive news about this particular token in regards to exchange listings. As the popularity of the Svandis platform grows the goal is to sign exclusive contracts with companies, exchanges and other news sources in order to publish news releases first at a predetermined time, in a single place and without information leaks.
 
+### Functionality
+The newsfeed works in correlation with our community of data miners. Svandis analysts collect trustworthy news outlets online and program carefully chosen css selectors to grip onto the URL's of new articles found on the sources. Then it is the job of the automated data mining workers on the locally running Svandis App to use community resources to scrape new URL's to submit to Svandis in return for SVN rewards.
+tosers to refine their feeds. Through machine learning we will improve our tagging over time by harvesting common terms and trends related to the tags pulling the highest quality news stories.
+
+Users utilizing the newsfeed have the option to tag the sentiment (bearish/bullish) of the feed in order to let the community know about  the sentiment in the news stories or themes. There is also a flag on each article to mark it more "Important" in order to grasp bigger news making an impact on the community. Combining sentiment analysis and significance of different themes, we can create a more robust service of alerts for our users about trends in any given cryptocurrency market.
+
+Users also have the ability to mark a newsfeed as Toxic. Articles marked as toxic can help the team of Analysts at Svandis with removing or refining news webfeeds to maintain a consistently trustworthy offering.
 
 ## Charts
 Charts will form an integral part of the Svandis platform. Whether a cryptocurrency is selected from the screener, index, heatmap or  group, a dedicated chart page will offer actionable information on a diverse range of technical indicators and catalysts. Svandis' charts will combine different types of data to provide actionable information and insights to professional traders who want to take a step back and analyse the elements that influence their investments in greater depth. With the ergonomics of Svandis tools a priority, close attention will be focused on all chart-related features, to optimise the user experience and with it the efficiency of the work of investors.
