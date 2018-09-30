@@ -475,4 +475,11 @@ Issuing infrastructure tokens specific to Svandis will help limit the number of 
 
 ## ERC20 Micro Rewards on MicroRaiden
 
+To deal with quick token transfers, we can use a custom off chain settling solution. We hope to use MicroRaiden/ Raiden.network technology for SVN token rewards. At a high level, this works by opening up a payment channel between the Svandis rewards token account and the user working on the network. Micro rewards of SVN are given for each proper validation based on the parameters of the gamification. These micro rewards are settled in real time by the actors on the off chain solution. When users want to withdraw these rewards, basically they will close the channel using the most recent signed transaction between user and rewards token fountain. Using the Raiden network would be a great way to implement this payment channel, and must be further explored for viability of this approach
+Micro Raiden will be the specific implementation we will add, for quick svn token transfers facilitating plenty of micro rewards in wei. The exact integration with smart contracts and backend solutions is under development and is subject to the current best practices for token transfers.
+
 # Conclusion
+
+The Svandis team is proud to propose this technical solution for the creation of a Decentralized Research Community and platform which will enrich the cryptocurrency trading experience for beginners and seasoned crypto veterans alike. This document acts as a living technical whitepaper for the time being and we are open to the community proposing Pull Requests to improve the content or even propose new ideas or alternative opinions on the development of the Research Community.
+
+Feedback and issues are welcome from the community. The goal of our solution is to be decentralized first and offer a lightweight solution to increase the transparency of our offering.
