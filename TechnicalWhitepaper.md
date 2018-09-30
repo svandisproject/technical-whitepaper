@@ -297,11 +297,17 @@ With Svandis, users will be able to formulate their own indices. This feature wi
 # Data Mining Architecture
 ## Data Mining Workers
 ## Machine Learning and Sentiment Analysis
+In order to facilitate a positive feedback loop between the Internal analytics team and the research community, we will be using machine learning to pinpoint catalysts and other events within the ecosystem for which the internal team will make its best contribution. Machine learning will be used during the consensus mechanism as well to correlate similar information being presented by research community members.
+
+Machine learning is a part of data mining as we need to assure that the tags that we are associating to the Webfeeds are in fact accurate. In addition, as we curate high quality content from our tags, our worker will become smarter with Machine learning in that we will be able to automate the collection of tags or terms that produce similar content results based on our current tags.
+
+The users of the svandis ecosystem will be able to tag sentiment. We will be using [Stanford's Core NLP package](https://stanfordnlp.github.io/CoreNLP/) in order to do our own sentiment analysis on content as well. Using a combination of human and automated sentiment analysis we will be able to pinpoint with greater accuracy bullish and bearish trends in a given market. Using fuzzy logic and mathematical methods we will be able to extrapolate trends in sentiment to the performance of the market and supply this alongside heatmaps, catalysts and portfolios to ensure we provide complex traders and newcomers alike with the most comprehensive Cryptocurrency information in one place.
+
 ## Svandis Database
 
 Svandis will be using a traditional centralized database for the newsfeed and screener information. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
 
-The database being used is a Cassandra database stack. Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project.
+The database being used is a Cassandra database stack. Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project. Cassandra's tech stack is decentralized so that there is no single point of failure.
 
 # Research Community Structure
 
