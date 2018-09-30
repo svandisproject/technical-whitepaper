@@ -296,6 +296,15 @@ With Svandis, users will be able to formulate their own indices. This feature wi
 
 # Data Mining Architecture
 ## Data Mining Workers
+
+Bundled with our front end Desktop Application for Linux, OSX, and Windows we have included our worker module. Within the application, users can find a datamining sub application, where they can acknowledge terms and conditions and proceed to mine web feed information on their machine. Our web feeds are curated lists of trustworthy news sources, carefully chosen based on CSS Selectors on the websites they originate from. Not all news information will be blockchain or cryptocurrency related, so our carefully selected Tags and machine learning generated tags will take care of extracting URL's only of relevant articles. In return for lending the processing power on their machine, users mining for web feeds will receive SVN rewards.
+
+The front end Svandis application is bundled with [Electron technology](https://github.com/electron) so that it can be offered across various platforms. The front end is based on Angular 6 and Javascript. 
+
+The desktop worker crawls for links, and afterwards sends to the socket server build on NestJs technology. The socket validates them and if the link has not been crawled it will indicate to the worker. It is then the task of the worker to send to the backend content extractor written in Python programming language.
+
+Currently the CSS selectors associated with new contents on web feeds are being programmed custom by the internal svandis team. We hope that in the future this can be a task for the research community, so that they can receive SVN token rewards for accomplishing this task in many more languages. Consensus based mechanisms can be put in place to confirm or reject a new web feed that a community developer might propose.
+
 ## Machine Learning and Sentiment Analysis
 In order to facilitate a positive feedback loop between the Internal analytics team and the research community, we will be using machine learning to pinpoint catalysts and other events within the ecosystem for which the internal team will make its best contribution. Machine learning will be used during the consensus mechanism as well to correlate similar information being presented by research community members.
 
@@ -305,7 +314,7 @@ The users of the svandis ecosystem will be able to tag sentiment. We will be usi
 
 ## Svandis Database
 
-Svandis will be using a traditional centralized database for the newsfeed and screener information. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
+Svandis will be using a traditional centralized database for the newsfeed and screener information. The database layer lies behind our backend API service. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
 
 The database being used is a Cassandra database stack. Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project. Cassandra's tech stack is decentralized so that there is no single point of failure.
 
