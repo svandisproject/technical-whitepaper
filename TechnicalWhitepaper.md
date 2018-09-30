@@ -274,14 +274,17 @@ The type of data a miner’s device will grab will depend on the strength of the
 
 This datamining app is bundled with our desktop application for Linux, Windows, and OSX, and will be available on other platforms as the project evolves. This project is discussed in further details [Data Mining Architecture](#data-mining-architecture)
 
-**TODO: add more from RC
 
 ![DataMining](/images/image6.png?raw=true "Datamining")
 
 ![DataMining](/images/image7.png?raw=true "Datamining")
 
+See in depth functional description [Data Mining Architecture](#data-mining-architecture)
+
 ## Marketplace
 The Svandis Marketplace will provide third-party access via the Svandis API. Svandis is planning to provide the access to Svandis products for corporate clients, as well as to Svandis Partners products for retail and corporate clients. This feature will help to distribute products of Svandis and company's partners.
+
+The marketplace will be programmed into the front end Svandis application. Costs within the marketplace will be resolved using SVN token as the currency. Users will be able to utilize tokens they received as rewards in the platform directly on the marketplace.
 
 ## Svandis Indices
 
@@ -295,6 +298,10 @@ With Svandis, users will be able to formulate their own indices. This feature wi
 ## Data Mining Workers
 ## Machine Learning and Sentiment Analysis
 ## Svandis Database
+
+Svandis will be using a traditional centralized database for the newsfeed and screener information. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
+
+The database being used is a Cassandra database stack. Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project.
 
 # Research Community Structure
 
