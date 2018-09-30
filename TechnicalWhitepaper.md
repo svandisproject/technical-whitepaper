@@ -456,11 +456,15 @@ For KYC and social media connected accounts, we will also add trusted "claims" o
 
 As expert users will be able to take full control of their on chain identity, they will have the ability to confirm that they are the only users in control of their identity. This is a secondary authentication alongside their standard JWT Auth login which will enable these users to validate that they are truthfully attesting information to the research community, and it is not the action of the Svandis organization speaking on these specific expert user's behalf. Svandis is decentralized first. The Svandis organization will not contribute to bias expressions on the platform nor knowingly post non factual information onto the Blockchain.
 
+[See our Identity Contracts on Github](https://github.com/svandisproject/svandis-backend/tree/master/contracts/identity)
+
 ## Data Signing and Screeners on the Blockchain
 
 The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain.
 
 Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information.
+
+[See our Contracts Backend for publishing signed data on Github](https://github.com/svandisproject/svandis-backend/tree/master/contracts/svandisdata)
 
 ## Consensus and Off Chain Settlement
 
