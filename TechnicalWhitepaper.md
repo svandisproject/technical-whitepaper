@@ -399,6 +399,7 @@ Each data field has a unique SVN token reward attached to it.
 While a field has the status ‘’validating’’, the researchers will still be able to submit data. If they end up having the right answer, they may get a reward depending on the accuracy and speed of their submission (ex. Only first X participants to submit correct data will get some reward).
 
 
+
 2. Data validation
 
 Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Being efficient with this feature will be crucial for increasing their rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses.
@@ -417,7 +418,7 @@ A user who dismisses too many requests might receive less data requests while fa
 
 3. Data Publication
 
-For a certain duration of the platform alpha release, certified analysts receive the result from data reviewers and which one has been accepted as a consensus. However, once the data is validated with 75% consensus, it should be pushed into the system automatically.
+For a certain duration of the platform alpha release, certified analysts receive the result from data reviewers and which one has been accepted as a consensus. However, once the data is validated with 75% consensus, it should be pushed into the system automatically. At this time there is a mechanism to publish the state of this information to the blockchain and assure transparency for decentralized actors.
 
 After analyzing the results, The analyst or the system publishes the data to the platform. The researcher who submitted the approved data gets the largest share of SVN rewards while the others who submitted the answer while ‘’validating’’ gets a lesser reward depending on the speed of their submission. (After a fixed number it should be very low.)
 
@@ -469,13 +470,15 @@ Every screener on the blockchain is a piece of "Svandis data", it can be upgrade
 
 To make a decision on behalf of beginner and expert accounts working together, there needs to be a consensus made. The power and rating effect on consensus and quantity of token rewards is subject to changes in the Research Community token economics. 
 
-The mechanism of consensus will rely on **10 users** submitting their opinion on a qualitative or quantitative data field in the screener. These users must be randomnly selected by Svandis off chain and this will be based on a randomized selection using entropy from the last Ethereum block hash.  The 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
+The mechanism of consensus will rely on **10 users** submitting their opinion on a qualitative or quantitative data field in the screener. These users must be randomnly selected by Svandis off chain and this will be based **on a randomized selection using entropy from the last Ethereum block hash**.  The 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
 
-Successful consensus reached by over 75% of users based on the Svandis power and rating, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in intervals and with confirmed transactions, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. 
+Successful consensus reached by over 75% of users based on the Svandis power and rating, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in intervals and with confirmed transactions, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. If consensus is not reached there will be no change on the blockchain, if there is an action later on by Svandis Internal analytics team this might trigger an action being recorded on chain.
 
 **To deal with the cost** of publishing information to the blockchain, we will not be publishing at a common interval. We will publish the state of the current database once per day publically on the chain. In real time, we will publically publish a feed on Svandis website where we will post signed transactions (that have not been submitted to the blockchain) with the current state of our information. This means that any user can submit this transaction on chain, so that Svandis maintains accountable and transparent for the actions of the backend whilst saving cost on updating every event to the blockchain. 
 
 This process is necessary to provide a light weight and transparent layer to our offering. We have created our development plan for our solution balancing between the necessity for user friendliness, the growing desire for the cryptocurrency community to act in a decentralized manner, and responsibility to the community to create mechanisms in the smart contracts to promote truthfulness in our offering. 
+
+Based on the state of consensus, there will be micro rewards associated with each field of a screener that a research community member successfully helps complete. These micro rewards will be facilitated in a low cost micro raiden solution, discussed further herein.
 
 ## SVN Token Economics
 
