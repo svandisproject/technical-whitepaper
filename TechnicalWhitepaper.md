@@ -399,7 +399,6 @@ Each data field has a unique SVN token reward attached to it.
 While a field has the status ‘’validating’’, the researchers will still be able to submit data. If they end up having the right answer, they may get a reward depending on the accuracy and speed of their submission (ex. Only first X participants to submit correct data will get some reward).
 
 
-
 2. Data validation
 
 Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Being efficient with this feature will be crucial for increasing their rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses.
@@ -434,7 +433,6 @@ Once the researcher enters the updated data in the grid, it follows the same pro
 Some data fields may have to change constantly, example: the current amount of token sold during an ICO. Those will be reserved for the analysts to update them when needed.
 
 
-
 Anyone (except newcomers) can suggest new project grids to be researched. The suggestion gets validated by certified researchers who reached level 12. When reviewers can approve the existence of the new project, it goes into an analyst dashboard. The analyst perform final verifications and can successfully push the grid.
 
 There will be 2 types of users: Independent participants (newcomers, researchers, analysts) and project participants (CEO, Founders). The majority of the platform users will be independent but there will be an option to register as a user from an existent project / company. Each of those participants will require an extensive KYC to prove the relationship between him and the project itself. Once registered, the project participant will be able to submit his own project or contest data. Researchers are in charge of validating the data, while mediators take care of data contestation. 
@@ -446,8 +444,39 @@ A rating ranking will be available to the research community with personal stati
 
 # Blockchain Architecture
 ## ERC 725/735 Decentralized Identities
+
+The methodology behind identity on the blockchain is an especially interesting topic in the Ethereum community today. There are various Ethereum Improvement Proposals that have been put forward, and groups (such as UPort, Status.im, Civic, Tenzorum, and the Ethereum organization) are seeking to provide their own innovative solutions. However what they share is decentralization of identities, key management, "claims" made by trusted parties, controlled by a smart contract. However the exact manner in which these solutions are formulated differ based on the exact business specifications of the organization.
+
+Svandis is presenting a **decentralized first** and **low gas cost** solution for the Research Community. After research into the subject and carefully weighing the benefits of other open source solution, we decided to take a similar approach to identity such as the [Origin.js project](https://github.com/OriginProtocol/origin-js). This solution is compliant with [EIP725](https://github.com/ethereum/EIPs/issues/725) and [EIP735](https://github.com/ethereum/EIPs/issues/735) . 
+
+In order to have a seamless solution, at the moment Svandis will post the identity of users on the blockchain for them. Users will have the choice of selecting beginner or expert users, which will translate to whether or not they would like Svandis to hold a key to their identity contract. Both beginner and expert users will generate, without the need for metamask- a local file in browser containing their web wallet that can only be opened with a password. Beginner users will allow Svandis to add the Svandis organization as the recovery key for this on chain contract (which contains their decentralized "reputation" on chain.) Expert users will have their own recovery mechanism, and will acknowledge that if they lose access to all their keys they will not be able to recover their on chain "reputation" connected to this smart contract. Users will be prompted to learn more about Blockchain and eventually use metamask or a hardware wallet to store their recovery key as beginners become experts. As the research community moves towards being completely on the blockchain, the recovery mechanism key may be potentially transferred to the custodianship of a decentralized autonomous organization. 
+
+For KYC and social media connected accounts, we will also add trusted "claims" on the blockchain. This will be for users that authenticate a social media provider with Svandis. It will also cover users who wish to confirm their real identity on chain in exchange for token rewards for reducing spamming accounts onto the platform. 
+
+As expert users will be able to take full control of their on chain identity, they will have the ability to confirm that they are the only users in control of their identity. This is a secondary authentication alongside their standard JWT Auth login which will enable these users to validate that they are truthfully attesting information to the research community, and it is not the action of the Svandis organization speaking on these specific expert user's behalf. Svandis is decentralized first. The Svandis organization will not contribute to bias expressions on the platform nor knowingly post non factual information onto the Blockchain.
+
 ## Data Signing and Screeners on the Blockchain
+
+The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain.
+
+Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information.
+
 ## Consensus and Off Chain Settlement
+
+Creating a random consensus for data validation, and all the cost of executing this logic is not a feasible solution to complete on the Ethereum blockchain today.
+
+Every screener on the blockchain is a piece of "Svandis data", it can be upgraded from a ICO or Token offering to an exchanged cryptocurrency, and the original state is published when a new contract is created for a screener. That contract will be subject to having it's current "state" changed to the most recent hash for the structured data field associated with the screener.
+
+To make a decision on behalf of beginner and expert accounts working together, there needs to be a consensus made. The power and rating effect on consensus and quantity of token rewards is subject to changes in the Research Community token economics. 
+
+The mechanism of consensus will rely on **10 users** submitting their opinion on a qualitative or quantitative data field in the screener. These users must be randomnly selected by Svandis off chain and this will be based on a randomized selection using entropy from the last Ethereum block hash.  The 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
+
+Successful consensus reached by over 75% of users based on the Svandis power and rating, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in intervals and with confirmed transactions, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. 
+
+**To deal with the cost** of publishing information to the blockchain, we will not be publishing at a common interval. We will publish the state of the current database once per day publically on the chain. In real time, we will publically publish a feed on Svandis website where we will post signed transactions (that have not been submitted to the blockchain) with the current state of our information. This means that any user can submit this transaction on chain, so that Svandis maintains accountable and transparent for the actions of the backend whilst saving cost on updating every event to the blockchain. 
+
+This process is necessary to provide a light weight and transparent layer to our offering. We have created our development plan for our solution balancing between the necessity for user friendliness, the growing desire for the cryptocurrency community to act in a decentralized manner, and responsibility to the community to create mechanisms in the smart contracts to promote truthfulness in our offering. 
+
 ## SVN Token Economics
 
 The SVN token is an ERC20 Compliant Token to be deployed on the blockchain. Our [Crowdsale Contract](https://github.com/svandisproject/smart-contract) contains an example of our current token contract.
@@ -475,7 +504,8 @@ Issuing infrastructure tokens specific to Svandis will help limit the number of 
 
 ## ERC20 Micro Rewards on MicroRaiden
 
-To deal with quick token transfers, we can use a custom off chain settling solution. We hope to use MicroRaiden/ Raiden.network technology for SVN token rewards. At a high level, this works by opening up a payment channel between the Svandis rewards token account and the user working on the network. Micro rewards of SVN are given for each proper validation based on the parameters of the gamification. These micro rewards are settled in real time by the actors on the off chain solution. When users want to withdraw these rewards, basically they will close the channel using the most recent signed transaction between user and rewards token fountain. Using the Raiden network would be a great way to implement this payment channel, and must be further explored for viability of this approach
+To deal with quick token transfers, we can use a custom off chain settling solution. We hope to use MicroRaiden/ Raiden.network technology for SVN token rewards. At a high level, this works by opening up a payment channel between the Svandis rewards token account and the user working on the network. Micro rewards of SVN are given for each proper validation based on the parameters of the gamification. These micro rewards are settled in real time by the actors on the off chain solution. When users want to withdraw these rewards, basically they will close the channel using the most recent signed transaction between user and rewards token fountain. Using the Raiden network would be a great way to implement this payment channel, and must be further explored for viability of this approach.
+
 Micro Raiden will be the specific implementation we will add, for quick svn token transfers facilitating plenty of micro rewards in wei. The exact integration with smart contracts and backend solutions is under development and is subject to the current best practices for token transfers.
 
 # Conclusion
