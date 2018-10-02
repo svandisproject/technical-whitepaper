@@ -347,7 +347,7 @@ The Research Community is made up of actors who will have an identity created fo
 The current plan for the research community involves various grades, achieved through research actions as well as submission of KYC and Social Media authentication. The model for this is as shown below, note this is presentation is a living document and is subject to change as we balance the business requirements for the Svandis organization and the role of consensus in the Research Community. 
 
 | Level | Granted Priviledge | "Svandis Power" |
-| ------ | ----------- | -----------|
+| ------ | :------------------------: | -----------:|
 | 1   | Submit grade 1 data. Submit new projects | 1 |
 | 2   | Submit grade 2 data. | 1 |
 | 3   | Submit grade 3 data. | 1 |
