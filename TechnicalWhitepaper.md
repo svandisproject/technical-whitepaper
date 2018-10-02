@@ -200,13 +200,13 @@ These events might not have an immediate effect on a company’s fundamentals , 
 
 Catalyst analysis uses a combination of standard data collection, our flagged newsfeed, and changes in price to create a meaningful offering for the community. These catalysts are meant to be posted onto a historical chart to try and visualize the effect of an event on a cryptocurrency.
 
-Svandis has the opportunity to use a combination of analyst human input, monitoring of price swings, and the flagged articles on the newsfeed to create catalysts. News feed articles contain both bullish/bearish sentiment indicators that the community can use to assign the sentiment of articles, they also have an "importance" flag in order to pinpoint significant articles. The catalyst will exemplify the affect of sentiment and significance in major stories on the resulting short-term price swing of the cryptocurrency. This will be an optional parameter to be viewed on trading view charts afterwards. 
+Svandis has the opportunity to use a combination of analyst human input, monitoring of price swings, and the flagged articles on the newsfeed to create catalysts. News feed articles contain both bullish/bearish sentiment indicators that the community can use to assign the sentiment of articles, they also have an "importance" flag in order to pinpoint significant articles. The catalyst will exemplify the affect of sentiment and significance in major stories on the resulting short-term price swing of the cryptocurrency. This will be an optional parameter to be posted on trading view charts afterwards. 
 
 The flow for a catalyst will start with our backend using machine learning to seek out articles with strong sentiment and significance. This combined with price fluctuations will notify analysts of a potential catalyst. It will be up to random and responsive research community members to act as analysts and decide whether to notify the community of a catalyst or not. There will also be an option for the research community to add their own custom catalysts which may be based on existing news in the web feed or not.
 
 ## Heatmaps and Groups
 
-Svandis has developed a visual heatmap of the market that will help traders check the crypto-market status on a daily basis or over a specified period. Heatmaps translate raw, complex financial data into visual maps by presenting live, vivid images that dynamically change, allowing traders to quickly determine which cryptocurrencies and tokens are moving, how far they are moving and in which direction. Heatmaps are industry-proven investment tools that synthesise complex data to help individuals make more proficient trading decisions. The market capitalisation of each token or cryptocurrency will be displayed on the heatmap, as well as the change in their price for a given period (day, week, month, quarter, year). Svandis heatmaps will reflect most of the tradable crypto assets, which may include (but not limited to) the following categories:
+Svandis has developed a visual heatmap of the market that will help traders check the crypto-market status on a daily basis or over a specified period. Heatmaps translate raw, complex financial data into visual maps by presenting live, vivid images that dynamically change, allowing traders to quickly determine which cryptocurrencies and tokens are moving, how far they are moving and in which direction. Heatmaps are industry-proven investment tools that synthesise complex data to help individuals make more proficient trading decisions. The market capitalisation of each token or cryptocurrency will be displayed on the heatmap, as well as the change in their price for a given period (day, week, month, quarter, year). Svandis heatmaps will reflect most of the tradeable crypto assets, which may include (but not limited to) the following categories:
 
 * Cryptocurrencies
 * Content
@@ -224,7 +224,7 @@ Svandis has developed a visual heatmap of the market that will help traders chec
 * Wallets & Money Services
 * Exchanges and Cryptocurrencies Trading
 
-In addition to the heatmaps, users will be able to group cryptocurrencies and tokens included in the Svandis screener. This Svandis grouping feature will enable cryptoassets to be visualised by sector, industry, country and capitalisation. Each group will be sortable by different filters and visualisation options, e.g., tables, bar charts, spectra, grids, etc.
+In addition to the heatmaps, users will be able to group cryptocurrencies and tokens included in the Svandis screener. This Svandis grouping feature will enable cryptoassets to be visualised by sector, industry, country and capitalisation. Each group will be sortable by different filters and visualisation options, e.g., tables, bar charts, spectra, grids, etc. Users can select to display group information onto a heatmap.
 
 Heatmaps will be built on the Svandis front end application to add another perspective to traders. They will be built using [D3 technology](https://github.com/d3/d3) in javascript. This module has plenty of use in the online community and we can build a strong platform for our heatmaps upon it.
 
@@ -234,15 +234,15 @@ Groups and filters will be available in correlation with the heatmaps and they w
 
 In order to to continuously monitor cryptoassets, users can access the Svandis Watchlist and Alerts features. The watchlists will quickly and easily gather into an editable list of cryptoassets that the user wants to monitor. It will be possible to assign tags and change the display order in simple steps. The watchlist will also incorporate a configurable alert function offering users a range of options to be notified about certain conditions via Telegram, SMS or email.
 
-Watchlists will be a component of our backend Svandis services. When users register for aforementioned notifications, the backend will monitor for catalysts or events, significant price swings in crypto currencies, news feed articles, or other relevant information to relay to the user in real time. This allows the Svandis community to stay on top of the latest cryptocurrency changes as they happen. Svandis will build on top of Nest Js technology to create microservices facilitating real time feedback for events in the Svandis community.
+Watchlists will be a component of our backend Svandis services. When users register for aforementioned notifications, the backend will monitor for catalysts or events, significant price swings in crypto currencies, news feed articles, or other relevant information to relay to the user in real time. This allows the Svandis community to stay on top of the latest cryptocurrency changes as they happen. Svandis will build on top of Nest Js technology to create the backend microservices facilitating real time feedback for events in the Svandis community.
 
 ## Portfolio
 The Svandis ecosystem provides a proficient and reliable tool for quick portfolio visualisation. The portfolio developed by Svandis will connect to several popular exchanges, allowing users to evaluate the impact of breaking news on their portfolio, as well as quickly applying heatmaps to their assets for decision making.
 
-The portfolio for a given user will be available on their front end Svandis application. Svandis will save portfolio information securely in our centralized database. Users wishing to share their portfolio may be entitled to SVN rewards. Users will be able to customize their portfolio and use tools such as heatmaps, catalyst analysis and charts to see how their investments are working for them. Users can reliably add and remove items from their portfolio with a rich array of fields to allow traders to keep track of performance, inside of a material design UX on the Svandis front end application.
+The portfolio for a given user will be available on their front end Svandis application. Svandis will save portfolio information securely in our centralized database. Users wishing to share their portfolio may be entitled to SVN rewards. Users will be able to customize their portfolio and use tools such as heatmaps, catalyst analysis and charts to see how their investments are working for them. Users can reliably add and remove items from their portfolio with a rich array of fields to allow traders to keep track of performance, inside of a material design UX on the Svandis application.
 
 ## Customisable User-Interface
-Every Svandis feature will have a customisable user-interface to arrange and present data in the most suitable way for every trader. It will include differing colour schemes and layouts for added customisation.
+Every Svandis user will have a customisable interface to arrange and present data in the most suitable way for their trading needs. It will include differing colour schemes and layouts for added customisation.
 
 The Svandis application is built on top of Angular 6 and Angular Material Design. The application will act as a customizable dashboard where users will be able to customize styling as mentioned, as well as save default configuration for their charts, heatmaps, and portfolios. The customizability of the UI will allow traders to get all information they need on one dashboard without having to have multiple tabs and services open on their local machine.
 
@@ -252,12 +252,12 @@ The Svandis application is built on top of Angular 6 and Angular Material Design
 
 The power of the decentralized research community is unparalleled in the cryptomarket and may increase the capability to detect opportunities or report organised information in a quick and efficient manner.
 The Research Community and the Svandis Analytics Team are the central players in the Svandis ecosystem. Their roles, and in particular the Community’s role, will enable traders using the Svandis platform to receive all necessary crypto-data in one place before the majority of market participants.
-Svandis Research Community - Trusted Reviewer and Data Verification
-Svandis aims to create professional development opportunities for the most active community members who wish to complete data checks on ICOs and token sales. The goal is to check the validity of several categories of information published on an ICO or token sale. Using a standardised template to ensure consistency in the presentation of data, a checklist on various points will be available to verify and share with the community whether the given project is (1) legitimate and (2) technically feasible over a realistic period of time. Applying the diversity of expertise available among Svandis users will help target high potential projects, as well as share precautionary opinions on others. We believe that a community of reviewers can look at important elements, such as company and team backgrounds, and ICO metrics.
 
-This dynamic system will comprise of two phases for a given screener. The first phase is creating the initial information for all existing and useful cryptocurrencies and tokens. The second phase is curating this information, each time more up-to-date truthful information can be provided. Token rewards vary for the task being completed.
+The Svandis Research Community is a trusted Reviewer and Data Verification platform. Svandis aims to create professional development opportunities for the most active community members who wish to complete data checks on ICOs and token sales. The goal is to check the validity of several categories of information published on an ICO or token sale. Using a standardised template to ensure consistency in the presentation of data, a checklist on various points will be available to verify and share with the community whether the given project is (1) legitimate and (2) technically feasible over a realistic period of time. Applying the diversity of expertise available among Svandis users will help target high potential projects, as well as share precautionary opinions on others. We believe that a community of reviewers can look at important elements, such as company and team backgrounds, and ICO metrics.
 
-Svandis will deploy a series of solidity smart contracts "The Svandis Ecosystem" containing decentralized identity for the research community and trustless proofs for the state of Data consensus. The smart contracts involved will be discussed in [Research Community Blockchain Architecture](#research-community-blockchain-architecture).
+This dynamic system will comprise of two phases for a given screener. The first phase is creating the initial information for all existing cryptocurrency and token projects. The second phase is curating this information, each time more up-to-date truthful information can be provided. Token rewards vary for the task being completed.
+
+Svandis will deploy a series of solidity smart contracts "The Svandis Ecosystem" containing decentralized identity for the research community and trustless proofs for the state of Data consensus. The smart contracts involved will be discussed in [Research Community Structure](#research-community-structure).
 
 ![Ecosystem](/images/image3.png?raw=true "Ecosystem")
 
@@ -284,15 +284,22 @@ See in depth functional description [Data Mining Architecture](#data-mining-arch
 ## Marketplace
 The Svandis Marketplace will provide third-party access via the Svandis API. Svandis is planning to provide the access to Svandis products for corporate clients, as well as to Svandis Partners products for retail and corporate clients. This feature will help to distribute products of Svandis and company's partners.
 
-The marketplace will be programmed into the front end Svandis application. Costs within the marketplace will be resolved using SVN token as the currency. Users will be able to utilize tokens they received as rewards in the platform directly on the marketplace.
+The marketplace will be programmed into the front end Svandis application. Costs within the marketplace will be resolved using SVN token as the currency. Users will be able to utilize tokens they received as rewards in the platform directly on the marketplace. 
+
+The marketplace will include userful content such as:
+* Subscriptions to "top picks" by expert traders
+* Premium analytics from users who opt in to show their trading history, performance and portfolio in exchange for SVN token rewards
+* Subscribe to third party watchlists, alerts and catalyst feeds
+* Limited edition Svandis skins and visual customizations
+* Other integrated third party partner applications 
 
 ## Svandis Indices
 
-To better serve traders, we will be implementing Indices in the platform. These indices will be compiled both by the Svandis team and will be available to users. This software offering will be developed along side other dashboard features in the front end Svandis application, and will integrate with user portfolios and custom interface.
+To better serve traders, we will be implementing Indices in the platform. These indices will be compiled both by the Svandis team and will be available to users. This software offering will be developed alongside other dashboard features in the front end Svandis application, and will integrate with user portfolios and custom interface.
 
 The Svandis indices will be developed by the Internal Research and Analysis Team. For example, a major Svandis index will be an index of 30 cryptoassets issued by the highest ranked companies. The goal is to establish a leading performance indicator of largest cryptocurrencies and tokens in terms of market capitalisation. Other Svandis indices may include a volatility index showing a projected 30-day market volatility.
 
-With Svandis, users will be able to formulate their own indices. This feature will allow the cryptocurrency market to be divided into user-defined subgroups for the tracking of price and volume changes. The Customised Index Builder will include varying parameters.
+With Svandis, users will be able to formulate their own indices. This feature will allow the cryptocurrency market to be divided into user-defined subgroups for the tracking of price and volume changes. The Customised Index Builder will include varying parameters to help users search for and better organize cryptocurrencies.
 
 # Data Mining Architecture
 ## Data Mining Workers
@@ -301,7 +308,7 @@ Bundled with our front end Desktop Application for Linux, OSX, and Windows we ha
 
 The front end Svandis application is bundled with [Electron technology](https://github.com/electron) so that it can be offered across various platforms. The front end is based on Angular 6 and Javascript. 
 
-The desktop worker crawls for links, and afterwards sends to the socket server build on NestJs technology. The socket validates them and if the link has not been crawled it will indicate to the worker. It is then the task of the worker to send to the backend content extractor written in Python programming language.
+The desktop worker crawls for links, and afterwards sends to the socket server build on NestJs technology. Our active server socket validates them and if the link has not been crawled it will indicate to the worker. It is then the task of the worker to forward the data to the backend content extractor written in Python programming language.
 
 Currently the CSS selectors associated with new contents on web feeds are being programmed custom by the internal svandis team. We hope that in the future this can be a task for the research community, so that they can receive SVN token rewards for accomplishing this task in many more languages. Consensus based mechanisms can be put in place to confirm or reject a new web feed that a community developer might propose.
 
@@ -314,24 +321,54 @@ The users of the svandis ecosystem will be able to tag sentiment. We will be usi
 
 ## Svandis Database
 
-Svandis will be using a traditional centralized database for the newsfeed and screener information. The database layer lies behind our backend API service. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
+Svandis will be using a Cassandra database for the newsfeed and screener information. The database layer lies behind our backend API service. The decentralized research community will be able to validate the state of this data with off chain signatures as discussed in the blockchain architecture. This approach will allow us to validate the state of our database externally in a decentralized format.
 
-The database being used is a Cassandra database stack. Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project. Cassandra's tech stack is decentralized so that there is no single point of failure.
+Svandis is choosing to use a Cassandra database as it supplies a robust NoSQL solution that will be able to scale quickly to the high velocity of token information and web content that we will be receiving on a second to second basis for the Svandis project. Cassandra's tech stack is decentralized so that there is no single point of failure. We will also have data hash proofs of the state of structured data in the database for token screeners completed by the decentralized Research Community.
 
 # Research Community Structure
 
 Svandis will focus on a mixed B2C and B2B business model, as our target audience includes retail cryptocurrency traders, cryptoasset investors, crypto-hedge funds, analytics companies, and traditional retail traders planning to enter the cryptocurrency market.
 
 The internal Svandis Analytics Team will provide the expertise necessary to conduct analysis and approve the content that is offered to users of the service. Like users in the Research Community, the Analytics Team will submit and verify data on cryptocurrencies and tokens.
-They will be responsible for validating the input from the Svandis Community for more complex data sets. Their work will cover ICOs, token sales, project updates, classification of the most important news to ensure that breaking news is promptly identified, and more. The growing team consists of senior analysts, researchers, editors, and developers working with data-grabbing technologies.
-From launch, the Svandis ecosystem will include a comprehensive database of cryptoassets (tokens, coins, cryptocurrencies and ICOs), which aims to rival existing crypto-information sources. Users within the Svandis community will be invited into the Beta Community Research prior to a public launch.
+This internal team will be responsible for validating the input from the Svandis Community for more complex data sets. Their work will cover ICOs and token sales, active tokens, project updates, classification of the most important news to ensure that breaking news is promptly identified as catalysts, and more. The growing team consists of senior analysts, researchers, editors, and developers working with data-grabbing technologies.
+From launch, the Svandis ecosystem will include a comprehensive database of common cryptoassets (tokens, coins, cryptocurrencies and ICOs), which aims to rival existing crypto-information sources. Users within the Svandis community will be invited into the Beta Community Research prior to a public launch.
 The Svandis ecosystem will be an industry first — a comprehensive crypto-research and visualization platform that combines crowdsourced data and machine learning.
 
 In order to sustain the highest quality of data about all the current existing projects, Svandis internal analytics will only be able to support the curation and building of the community. To manage such a vast amount of new and changing information we will be highly dependent on a research community made up of decentralized actors. The research community will be divided in grades and "Svandis Power" to ensure the most reputable and trustworthy actors have the most weight in the system.
 
 The cooperation of the Internal Svandis team with the Svandis Research Community is a pilar of the project, and as the project scales and grows, the philosophy is for the Research Community to require less dependence on the internal team over time. The final result is a curated registry of Cryptocurrency information that the Research Community can be proud to claim as their creation.
 
+The following section contains the distinct roles within the research community and how they work together to create a valuable ecosystem.
+
 ## Roles in the Research Community
+
+The Research Community is made up of actors who will have an identity created for them on the blockchain to which they may hold the key to. As users submit reputable actions on the platform, their grade reflected on the blockchain will increase over time and give them more "power" in the Svandis process and consensus. The system is designed to ensure top contributing users can move up the ranks and learn more about cryptocurrency, while spam accounts will have a difficult time making an impact on the truthful nature of the solution.
+
+The current plan for the research community involves various grades, achieved through research actions as well as submission of KYC and Social Media authentication. The model for this is as shown below, note this is presentation is a living document and is subject to change as we balance the business requirements for the Svandis organization and the role of consensus in the Research Community. 
+
+| Level | Granted Priviledge | "Svandis Power" |
+| ------ | ----------- | -----------|
+| 1   | Submit grade 1 data. Submit new projects | 1 |
+| 2   | Submit grade 2 data. | 1 |
+| 3   | Submit grade 3 data. | 1 |
+| 4   | Submit grade 4 data. | 1 |
+| 5   | Submit grade 5 data. Request Modifications to existing screeners. | 1 |
+| 6   | Validate grade 1 data. | 1 |
+| 7   | Validate grade 2 data. | 1 |
+| 8   | Validate grade 3 data. | 1 |
+| 9   | Validate grade 4 data. | 1 |
+| 10  | Validate grade 5 data. | 1 |
+| 11  | Tag 5 sentiments / day. Rating on news articles. | 2 |
+| 12  | Validate new project submission. | 2.2 |
+| 13  |  | 2.5 |
+| 14  |  | 2.8 |
+| 15  | Premium Marketplace unlocks? | 3 |
+| 16  |  | 3.2 |
+| 17  |  | 3.5 |
+| 18  |  | 3.8 |
+| 19  |  | 4 |
+| 20+| Help eliminate problematic news in web feed. Tag up 15 web feed sentiments/day. | 5 |
+
 ### Newcomers
 **Requirements:** Registered Svandis user (mandatory)
 
@@ -462,7 +499,7 @@ As expert users will be able to take full control of their on chain identity, th
 
 The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain.
 
-Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information.
+Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information. This signature will be 
 
 [See our Contracts Backend for publishing signed data on Github](https://github.com/svandisproject/svandis-backend/tree/master/contracts/svandisdata)
 
