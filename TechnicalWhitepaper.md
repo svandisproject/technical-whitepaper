@@ -334,7 +334,7 @@ This internal team will be responsible for validating the input from the Svandis
 From launch, the Svandis ecosystem will include a comprehensive database of common cryptoassets (tokens, coins, cryptocurrencies and ICOs), which aims to rival existing crypto-information sources. Users within the Svandis community will be invited into the Beta Community Research prior to a public launch.
 The Svandis ecosystem will be an industry first — a comprehensive crypto-research and visualization platform that combines crowdsourced data and machine learning.
 
-In order to sustain the highest quality of data about all the current existing projects, Svandis internal analytics will only be able to support the curation and building of the community. To manage such a vast amount of new and changing information we will be highly dependent on a research community made up of decentralized actors. The research community will be divided in grades and "Svandis Power" to ensure the most reputable and trustworthy actors have the most weight in the system.
+In order to sustain the highest quality of data about all the current existing projects, Svandis internal analytics will only be able to support the curation and building of the community. To manage such a vast amount of new and changing information we will be highly dependent on a research community made up of decentralized actors. The research community will be divided in levels and "Svandis Power" to ensure the most reputable and trustworthy actors have the most weight in the system.
 
 The cooperation of the Internal Svandis team with the Svandis Research Community is a pilar of the project, and as the project scales and grows, the philosophy is for the Research Community to require less dependence on the internal team over time. The final result is a curated registry of Cryptocurrency information that the Research Community can be proud to claim as their creation.
 
@@ -342,9 +342,9 @@ The following section contains the distinct roles within the research community 
 
 ## Roles in the Research Community
 
-The Research Community is made up of actors who will have an identity created for them on the blockchain to which they may hold the key to. As users submit reputable actions on the platform, their grade reflected on the blockchain will increase over time and give them more "power" in the Svandis process and consensus. The system is designed to ensure top contributing users can move up the ranks and learn more about cryptocurrency, while spam accounts will have a difficult time making an impact on the truthful nature of the solution.
+The Research Community is made up of actors who will have an identity created for them on the blockchain to which they may hold the key to. As users submit reputable actions on the platform, their level reflected on the blockchain will increase over time and give them more "power" in the Svandis process and consensus. The system is designed to ensure top contributing users can move up the ranks and learn more about cryptocurrency, while spam accounts will have a difficult time making an impact on the truthful nature of the solution.
 
-The current plan for the research community involves various grades, achieved through research actions as well as submission of KYC and Social Media authentication. The model for this is as shown below, note this is presentation is a living document and is subject to change as we balance the business requirements for the Svandis organization and the role of consensus in the Research Community. 
+The current plan for the research community involves various levels, achieved through research actions as well as submission of KYC and Social Media authentication. The model for this is as shown below, note this is presentation is a living document and is subject to change as we balance the business requirements for the Svandis organization and the role of consensus in the Research Community. 
 
 | Level | Granted Priviledge | "Svandis Power" |
 | ------ | :------------------------: | -----------:|
@@ -378,7 +378,7 @@ The main goal for a newcomer is to submit enough accurate data to become a resea
 
 
 ### Researchers
-**Requirements:** Light internal KYC
+**Requirements:** Light internal KYC, Level 5 in Research Community
 
 **Rights:** Researchers can start submitting data available in the grids. Once they reach rating level 5, they can submit anything. Data validation requests start at level 6 and increases until level 10 (see schema about rating levels below). Researchers can also suggest new project submissions and flag incorrect or false data in the ICO screener. Researchers get SVN token reward for their successful work. 
 
@@ -386,32 +386,33 @@ There will be a rating level from 1 to 20 where each level will unlock new actio
 
 
 ### Certified Researchers
-**Requirements:** Ranking needed for a researcher to be able to submit and validate any type of data. (level 10) 
+**Requirements:** Ranking needed for a researcher to be able to submit and validate any type of data, Level 10 in research community. 
 
 **Rights:** Certified researchers can submit, validate or modify any data field, but still need to be validated by research community. At this point, reaching higher levels allow users to obtain higher Svandis Power within the platform and also unlocks actions available on the Svandis Newsfeed feature. They will now be able to tag “sentiments” in the news articles in order to rate bullish - bearish. 
 
 
 ### Certified Analysts
-**Requirements:** Extensive experience within svandis platform
+**Requirements:** Extensive experience within svandis platform, Level 20+ in Research Community
 
 **Rights:** Certified analysts can analyse all the processes of the data workflow on Svandis platform, enabling them to identify anomalies that might be occurring in the system. They are also in charge of submitting and validating data that requires rigorous methods of investigation. At this level, they have the ability to officially push the projects data into the ICO screeners. Furthermore, they get a basic training on algorithms and blockchain parameters that influences the way the community are incentivized towards gathering specific data. Certified Analysts can propose tweaks, ideas to the internal team. They may act as trainers for researchers as these individuals have shown their value and capacity to deliver on a fast and accurate manner. 
 
 
 ### Mediators
-**Requirements:** Complete KYC and video interview  
+**Requirements:** Complete KYC and video interview, Certified Analysts  
 
 **Rights:** Mediators act as a referee when a project submit conflictual data into the grid or when data cannot reach consensus on whether it is considered good or wrong. They communicate with projects to let them know about their grid submission on Svandis platform. They are the bridge between projects and Strategic Development office.  Analysing internal statistics and suggesting platform improvement are tasks that will be done at this optimal ranking level on the Svandis platform.
 
 
 ## Rating and Svandis Power
 ### Rating
-Each researcher’s level, from 1 to 20, is directly calculated behind a hidden rating that is influenced by a range of variables based off a user’s productivity and effectiveness. Before reaching the certified researcher title, a user in the research community must climb and potentially increase his rating with:
+Each researcher’s level, from 1 to 20, is directly calculated behind a rating that is influenced by a range of variables based off a user’s productivity and effectiveness. The process behind this will be transparent and published after the beta application version is complete. Before reaching the certified researcher title, a user in the research community must climb and potentially increase his rating with:
 
 1. Accuracy of data submission, validation and modification
 2. Ability to perform and reach consensus with other users in a time box
 3. Streaks of successful actions
 4. Activeness on the platform
 5. Difficulty of the data submitted 
+6. Correctly Identify spam and malicious content in ecosystem
 
 On the other hand, participants who fails to reach consensus by submitting erroneous data for data submission or validation will be losing a considerable amount of rating points. There will also be penalties for participants who do not respond to data validation requests or who dismiss them on a regular basis.
 
@@ -421,6 +422,27 @@ The Svandis Power is the weight of the participant throughout the Svandis platfo
 1. Data validation consensus (Research Community)
 2. News articles rating (Newsfeed)
 3. Sentiment: Bearish / Bullish / Important (Newsfeed)
+
+The more time a user spends as a reputable actor on the platform, the more influence they will receive along with SVN token rewards. This is both to curate an excellent community of researchers as well as to gamify the users experience with the Svandis ecosystem. In the case of consensus for example, more senior users will have more weight in off chain consensus.
+
+### Newsfeed Rating
+
+The Svandis Power is also relevant in the Newsfeed rating system. As users reach level 11, they unlock the privilege of rating from 1 to 5 any articles they read, 1 being mediocre and 5 excellent. This is only a mechanism to rank quality of a trustworthy articles, and is not related to sentiment or problematic articles. Here is how articles rating should work:
+
+
+![Newsfeed](/images/image8.png?raw=true "Newsfeed")
+
+
+For each User, (Svandis Power * Rating) = Total User Rating Applied to Article
+Total User Rating / Total amount of Svandis Power = Article Rating
+
+In this example, Article Rating would be:
+
+{(2 * 3) + (2.5 * 2) + (3.5 * 5) + (5 * 3)}/{2 + 2.5 + 3.5 + 5}  =  3.346 Article Rating
+                
+
+
+
 
 ## Screeners Workflow for the Research Community
 
@@ -441,7 +463,7 @@ While a field has the status ‘’validating’’, the researchers will still 
 
 Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Being efficient with this feature will be crucial for increasing their rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses.
 
-The data submission is sent to a fixed amount of Svandis Power among the users online with an appropriate rating level to receive the submitted data grade. There should be a mechanism where data submission is sent to analysts if not enough users are online for data approval. 
+The data submission is sent to a fixed amount of Svandis Power among the users online with an appropriate rating level to receive the submitted data. There should be a mechanism where data submission is sent to analysts if not enough users are online for data approval. 
 
 When data gets submitted, for example, ICO project X ''hardcap'', and reviewers do not see the answer, they are alerted that someone submitted a value for ICO project X ''Hardcap'' and has been randomly selected to find the correct answer as a reviewer. So instead of just seeing the answer and clicking on a button, they have to find the answer and submit it as well. Depending on the complexity of the value, the system will automatically compile the results and compare with the researcher’s submission. This system will be slightly modified for qualitative data that cannot be compared.
 
