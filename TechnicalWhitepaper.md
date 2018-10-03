@@ -416,7 +416,7 @@ Each researcher’s level, from 1 to 20, is directly calculated behind a rating 
 5. Difficulty of the data submitted 
 6. Correctly Identify spam and malicious content in ecosystem
 
-On the other hand, participants who fails to reach consensus by submitting erroneous data for data submission or validation will be losing a considerable amount of rating points. There will also be penalties for participants who do not respond to data validation requests or who dismiss them on a regular basis.
+On the other hand, participants who fails to reach consensus by submitting erroneous data for data submission or validation will be losing a considerable amount of rating points. There will be a mechanism where users working on data validation can set an "online" status that they are ready to validate. In such, there will exist penalties for users who set an "online" status and do not respond to data validation requests or who dismiss them on a regular basis. This functionality is similar to multi player online games where users negatively affect their reputation when they accept to be part of a game lobby and afterwards are inactive or leave mid game.
 
 ### Svandis Power
 The Svandis Power is the weight of the participant throughout the Svandis platform as a user of the research community. Everyone should thrive to increase their level in order to raise their power commitment in the community hierarchy. The Svandis Power will influence the participants actions in the following features:
@@ -429,7 +429,7 @@ The more time a user spends as a reputable actor on the platform, the more influ
 
 ### Newsfeed Rating
 
-The Svandis Power is also relevant in the Newsfeed rating system. As users reach level 11, they unlock the privilege of rating from 1 to 5 any articles they read, 1 being mediocre and 5 excellent. This is only a mechanism to rank quality of a trustworthy articles, and is not related to sentiment or problematic articles. Here is how articles rating should work:
+The Svandis Power is also relevant in the Newsfeed rating system. As users reach level 11, they unlock the privilege of rating from 1 to 5 any articles they read, 1 being mediocre and 5 excellent. This is only a mechanism to rank quality of a trustworthy articles, and is not related to sentiment or problematic articles. Articles rating is a way for us to provide a seperate filter of significant and high quality information as curated by the community. Here is how articles weighted rating will operate:
 
 
 ![Newsfeed](/images/image8.png?raw=true "Newsfeed")
@@ -479,11 +479,11 @@ Data being submitted may have consensus reached and move directly to the publish
 
 ### Data Validation Phase
 
-Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Validation requests will be needed for more complex data, as a second step after data has been submitted and has possibly undergone consensus by other users. Being efficient with this feature will be crucial for increasing researcher rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses. Data validation serves as an extra method to ensure the highest quality of information is included upon the platform.
+Once a user reach level 6, he will be able to set his profile to "Active Validator", which will enable him to start receiving validation requests. Validation requests will be needed for more complex data, as a second step after data has been submitted and has possibly undergone consensus by other users. Being efficient with this feature will be crucial for increasing researcher rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses. Data validation serves as an extra method to ensure the highest quality of information is included upon the platform.
 
 The data submission is sent to a fixed amount of Svandis Power among the users online with an appropriate rating level to receive the submitted data. There should be a mechanism where data submission is sent to analysts if not enough users are online for data approval. Again, the data to be validated will likely have already gone through the data submission phase.
 
-When data gets submitted, for example, ICO project X ''hardcap'', and reviewers do not see the answer, they are alerted that someone submitted a value for ICO project X ''Hardcap'' and has been randomly selected to find the correct answer as a reviewer. So instead of just seeing the answer and clicking on a button, they have to find the answer and submit it as well. Depending on the complexity of the value, the system will automatically compile the results and compare with the researcher’s submission. This system will be more complex from a processing and UX perspective for qualitative data that cannot be compared (non numerical and non standardized string format, free flowing wording).
+When data gets submitted, for example, ICO project X "hardcap", and reviewers do not see the answer, they are alerted that someone submitted a value for ICO project X "Hardcap" and has been randomly selected to find the correct answer as a reviewer. So instead of just seeing the answer and clicking on a button, they have to find the answer and submit it as well. Depending on the complexity of the value, the system will automatically compile the results and compare with the researcher’s submission. This system will be more complex from a processing and UX perspective for qualitative data that cannot be compared (non numerical and non standardized string format, free flowing wording).
 
 There is an option for a reviewer to dismiss a request, removing the user from the processing. The request will then be sent to another user with a similar Svandis Power.
  
@@ -496,7 +496,7 @@ Please read more about [Consensus and Off Chain settlement](#consensus-and-off-c
 
 ### Data Signing and Screeners on the Blockchain
 
-The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain.
+The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain. This data hash is one Keccak256 hash of the final structured data reflected in the database. The format for the structured data will be open source on github with all fields and field format types included.
 
 Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information. This signature will be published alongside with the screener's data fields that were modified. 
 
