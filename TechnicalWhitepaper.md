@@ -583,7 +583,9 @@ Micro Raiden will be the specific implementation we will add, for quick svn toke
 
 ## Ecosystem Evolution
 
-The first phase of the Svandis Ecosystem is curating the highest quality and most up to date cryptocurrency information in the world. The second phase will be delivering more control to the Research Community by giving ownership of the Svandis Ecosystem smart contracts to a Decentralized Autonomous ogranization (DAO). In this manner, Svandis is dedicated to creating a decentralized solution that one day will be able to sustain its own growth and cultivation autonomously.
+The first phase of the Svandis Ecosystem is curating the highest quality and most up to date cryptocurrency information in the world. This task has a big dependence on the internal Svandis team to act as a trusted organization while advancements in technology and community building allow us to move from centralized solutions towards the decentralized.
+
+The second phase will be delivering more control to the Research Community by giving ownership of the Svandis Ecosystem smart contracts to a Decentralized Autonomous ogranization (DAO). In this manner, Svandis is dedicated to creating a decentralized solution that one day will be able to sustain its own growth and cultivation autonomously.
 
 # Conclusion
 
