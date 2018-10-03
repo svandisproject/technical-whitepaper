@@ -72,10 +72,12 @@ This Technical Whitepaper, any portion or copy thereof shall not be brought, tra
 - [Research Community Blockchain Architecture](#research-community-blockchain-architecture)
   * [ERC 725/735 Identity](#erc-725-and-735-identity)
   * [Decentralization of Research Community](#decentralization-of-research-community)
+  * [Screeners Workflow for the Research Community](#screeners-workflow-for-the-research-community)
   * [Data Signing & Screeners](#data-signing-and-screeners)
   * [Consensus & Off Chain Settlement](#consensus-and-off-chain-settlement)
   * [Token Economics](#token-economics)
   * [ERC20 Micro Rewards on MicroRaiden](#erc20-micro-rewards-on-microraiden)
+  * [Ecosystem Evolution](#ecosystem-evolution)
 - [Conclusion](#conclusion)
 
 <!-- /MarkdownTOC -->
@@ -434,72 +436,12 @@ The Svandis Power is also relevant in the Newsfeed rating system. As users reach
 
 
 For each User, (Svandis Power * Rating) = Total User Rating Applied to Article
-Total User Rating / Total amount of Svandis Power = Article Rating
+
+Sum User Ratings / Total amount of Svandis Power = Article Rating
 
 In this example, Article Rating would be:
 
 {(2 * 3) + (2.5 * 2) + (3.5 * 5) + (5 * 3)}/{2 + 2.5 + 3.5 + 5}  =  3.346 Article Rating
-                
-
-
-
-
-## Screeners Workflow for the Research Community
-
-1. Data submission
-
-Svandis internal team or certified analysts push a selection of ‘’Initial Coin Offering’’ projects from a suggestion form that can be provided by all ranks above Newcomer. There are some mechanisms to counter spam or nonexistent projects. This initial coin offering project will need to be filled with factual information about the project.
-
-The research community receives a notification about new projects available to validate and submit data for.
-Each data field has a unique SVN token reward attached to it.
-
- As soon as a data field is filled and submitted, it is sent to reviewers (Level 6 and above) dashboard. Within the grid, there will be a visual effect on the data field that it is currently ‘’validating’’.
-
-While a field has the status ‘’validating’’, the researchers will still be able to submit data. If they end up having the right answer, they may get a reward depending on the accuracy and speed of their submission (ex. Only first X participants to submit correct data will get some reward).
-
-
-
-2. Data validation
-
-Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Being efficient with this feature will be crucial for increasing their rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses.
-
-The data submission is sent to a fixed amount of Svandis Power among the users online with an appropriate rating level to receive the submitted data. There should be a mechanism where data submission is sent to analysts if not enough users are online for data approval. 
-
-When data gets submitted, for example, ICO project X ''hardcap'', and reviewers do not see the answer, they are alerted that someone submitted a value for ICO project X ''Hardcap'' and has been randomly selected to find the correct answer as a reviewer. So instead of just seeing the answer and clicking on a button, they have to find the answer and submit it as well. Depending on the complexity of the value, the system will automatically compile the results and compare with the researcher’s submission. This system will be slightly modified for qualitative data that cannot be compared.
-
-There is an option for a reviewer to dismiss a request, removing the user from the statistics. A user who dismisses too many requests might receive less review requests after a certain amount (algorithm parameters). The request will then be sent to another user with a similar Svandis Power.
- 
-
-If 75% consensus on reviewers data cannot be reached, it is disapproved. If 75% consensus is reached but is not the same data as the researcher’s submission, it is sent to analysts. There might be cases where not enough participants responds to a validation request. For this matter, a time box should be used and the request will be sent to another user when it expires.
-
-A user who dismisses too many requests might receive less data requests while faster and accurate reviewers will be sent significantly more data requests to be validated (algorithm parameters). This setup will quicken the process of data validation consensus.
-
-
-3. Data Publication
-
-For a certain duration of the platform alpha release, certified analysts receive the result from data reviewers and which one has been accepted as a consensus. However, once the data is validated with 75% consensus, it should be pushed into the system automatically. At this time there is a mechanism to publish the state of this information to the blockchain and assure transparency for decentralized actors.
-
-After analyzing the results, The analyst or the system publishes the data to the platform. The researcher who submitted the approved data gets the largest share of SVN rewards while the others who submitted the answer while ‘’validating’’ gets a lesser reward depending on the speed of their submission. (After a fixed number it should be very low.)
-
-For quantitative data (those available to the newcomers), consensus from the certified reviewers will results in the data being published directly on the platform without having to be analyzed by certified analysts.
-
-
-4. Data Modification
-
-Each project’s grid has a ‘’flag’’ option available for any participant of the research community.
-
-Once the researcher enters the updated data in the grid, it follows the same process as a new data validation. 
-
-Some data fields may have to change constantly, example: the current amount of token sold during an ICO. Those will be reserved for the analysts to update them when needed.
-
-
-Anyone (except newcomers) can suggest new project grids to be researched. The suggestion gets validated by certified researchers who reached level 12. When reviewers can approve the existence of the new project, it goes into an analyst dashboard. The analyst perform final verifications and can successfully push the grid.
-
-There will be 2 types of users: Independent participants (newcomers, researchers, analysts) and project participants (CEO, Founders). The majority of the platform users will be independent but there will be an option to register as a user from an existent project / company. Each of those participants will require an extensive KYC to prove the relationship between him and the project itself. Once registered, the project participant will be able to submit his own project or contest data. Researchers are in charge of validating the data, while mediators take care of data contestation. 
-
-Filtering the grids with relevant information will be valuable for the research community. They will be able to verify which grids has been released in the last 24 hour, watch their favorite grids and their modifications, etc. 
-
-A rating ranking will be available to the research community with personal statistics: progression on a daily basis, amount of data entered, validated, etc.
 
 
 # Blockchain Architecture
@@ -517,15 +459,51 @@ As expert users will be able to take full control of their on chain identity, th
 
 [See our Identity Contracts on Github](https://github.com/svandisproject/svandis-backend/tree/master/contracts/identity)
 
-## Data Signing and Screeners on the Blockchain
+## Screeners Workflow for the Research Community
+
+### Data Submission Phase
+
+Svandis internal team or certified analysts push a selection of "Initial Coin Offering" projects from a screener suggestion form that can be provided by all ranks above Newcomer. Apart from a required rating, seperate mechanisms to counter spam or nonexistent projects will be developed. This initial coin offering project will need to be filled with factual information about the project, including but not limited to the name, website and type of blockchain the project is or will be built upon.
+
+Anyone (except newcomers) can suggest new project grids to be researched. The suggestion gets validated by certified researchers who reached level 12. When reviewers can approve the existence of the new project, it goes into an analyst dashboard. The analyst perform final verifications and can successfully push the grid.
+
+The research community receives a notification about new projects available to validate and submit data for. Users in the research community can mark themselves online in order to receive notifications.
+
+Each data field has a unique SVN token reward attached to it, which will be triggered later on by successful consensus by actors.
+
+As soon as a data field is filled and submitted, it is sent to the backend for processing. Within the grid, there will be a visual effect on the data field that it is currently ‘’validating’’. During this period a consensus will be reached with other online users, which is partially dependent on the "Svandis power" of the actors in consensus.
+ 
+While a field has the status "validating", the researchers will still be able to submit data. If they end up agreeing on the right answer, they may get a reward depending on the accuracy and speed of their submission (ex. Only first X participants to submit correct data will get some reward).
+
+Data being submitted may have consensus reached and move directly to the publishing phase along with a signed blockchain attestation. However, more complex information may need to be validated in a new consensus by more advanced and online users. Most spam and malicious information will not pass the Data Submission Phase
+
+### Data Validation Phase
+
+Once a user reach level 6, he will be able to set his profile to ‘’Active Validator’’, which will enable him to start receiving validation requests. Validation requests will be needed for more complex data, as a second step after data has been submitted and has possibly undergone consensus by other users. Being efficient with this feature will be crucial for increasing researcher rating, many aspects of the research community are focused on activeness and accuracy of a user’s validation responses. Data validation serves as an extra method to ensure the highest quality of information is included upon the platform.
+
+The data submission is sent to a fixed amount of Svandis Power among the users online with an appropriate rating level to receive the submitted data. There should be a mechanism where data submission is sent to analysts if not enough users are online for data approval. Again, the data to be validated will likely have already gone through the data submission phase.
+
+When data gets submitted, for example, ICO project X ''hardcap'', and reviewers do not see the answer, they are alerted that someone submitted a value for ICO project X ''Hardcap'' and has been randomly selected to find the correct answer as a reviewer. So instead of just seeing the answer and clicking on a button, they have to find the answer and submit it as well. Depending on the complexity of the value, the system will automatically compile the results and compare with the researcher’s submission. This system will be more complex from a processing and UX perspective for qualitative data that cannot be compared (non numerical and non standardized string format, free flowing wording).
+
+There is an option for a reviewer to dismiss a request, removing the user from the processing. The request will then be sent to another user with a similar Svandis Power.
+ 
+If 75% consensus on reviewers data cannot be reached, it is disapproved. If 75% consensus is reached but is not the same data as the researcher’s submission, it is sent to analysts. There might be cases where not enough participants responds to a validation request. For this matter, a time box should be used and the request will be sent to another user when it expires.
+
+A user who dismisses too many requests might receive less data requests and will take longer to reach further levels, while faster and accurate reviewers will be sent significantly more data requests to be validated (algorithm parameters). This setup will quicken the process of data validation consensus.
+
+
+Please read more about [Consensus and Off Chain settlement](#consensus-and-off-chain-settlement) to learn about Svandis' solution for randomness and low weight resolution on consensus off chain.
+
+### Data Signing and Screeners on the Blockchain
 
 The solution Svandis serves is light weight and low cost, for which reason we don't intend on adding all information directly onto the blockchain. We have explored various solutions including IPFS, however at this time we will be using the Cassandra NoSQL database solution. The conceptual information on this database however, will be represented by specific structured data snippets from which we can extract a "data hash" and post the current state to the blockchain.
 
-Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information. This signature will be 
+Each time users contribute to ICO or Token screeners, they will be coming to agreement with other users in the Svandis consensus mechanism. Each time a user fills out a set of new or updated fields to add to the information set for a screener- they will generate a "signature" of that decision in their browser. This means that only by unlocking your in browser Ethereum authentication, you can submit "signed" data to be considered in consensus and eventually published to the blockchain dependent on off chain results. This means that Svandis can confirm afterwards the exact on chain identity of the users who submitted to consensus were, and expert users will be able to attest that Svandis had no influence on their signed information. This signature will be published alongside with the screener's data fields that were modified. 
 
 [See our Contracts Backend for publishing signed data on Github](https://github.com/svandisproject/svandis-backend/tree/master/contracts/svandisdata)
 
-## Consensus and Off Chain Settlement
+
+### Consensus and Off Chain Settlement
 
 Creating a random consensus for data validation, and all the cost of executing this logic is not a feasible solution to complete on the Ethereum blockchain today.
 
@@ -533,15 +511,44 @@ Every screener on the blockchain is a piece of "Svandis data", it can be upgrade
 
 To make a decision on behalf of beginner and expert accounts working together, there needs to be a consensus made. The power and rating effect on consensus and quantity of token rewards is subject to changes in the Research Community token economics. 
 
-The mechanism of consensus will rely on **10 users** submitting their opinion on a qualitative or quantitative data field in the screener. These users must be randomnly selected by Svandis off chain and this will be based **on a randomized selection using entropy from the last Ethereum block hash**.  The 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
+The mechanism of consensus will rely on **10 users** interacting in either the Data Submission or Validation phase. These users must be randomnly selected by Svandis off chain and this will be based **on a randomized selection using entropy from the last Ethereum block hash**.  To participate, technically the 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
 
-Successful consensus reached by over 75% of users based on the Svandis power and rating, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in intervals and with confirmed transactions, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. If consensus is not reached there will be no change on the blockchain, if there is an action later on by Svandis Internal analytics team this might trigger an action being recorded on chain.
+Successful consensus reached by over 75% of users based on the Svandis power attributed to the given users' ratings, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in low frequency intervals and publically providing a signed transaction, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. If consensus is not reached there will be no change on the blockchain, if there is an action later on by Svandis Internal analytics team this might trigger an action being recorded on chain.
 
-**To deal with the cost** of publishing information to the blockchain, we will not be publishing at a common interval. We will publish the state of the current database once per day publically on the chain. In real time, we will publically publish a feed on Svandis website where we will post signed transactions (that have not been submitted to the blockchain) with the current state of our information. This means that any user can submit this transaction on chain, so that Svandis maintains accountable and transparent for the actions of the backend whilst saving cost on updating every event to the blockchain. 
+**To deal with the cost** of publishing information to the blockchain, we will not be publishing at a common interval. We will publish the state of the current database *once per hour* publically on the chain. In real time, we will publically publish a feed on Svandis website where we will post signed transactions (that have not been submitted to the blockchain) with the current state of our information. This means that any user can submit this transaction on chain (and trigger a gas cost) if they wanted to, meaning Svandis maintains accountable and transparent for the actions of the backend whilst saving cost on updating every event to the blockchain. 
 
-This process is necessary to provide a light weight and transparent layer to our offering. We have created our development plan for our solution balancing between the necessity for user friendliness, the growing desire for the cryptocurrency community to act in a decentralized manner, and responsibility to the community to create mechanisms in the smart contracts to promote truthfulness in our offering. 
+This process is necessary to provide a light weight and transparent layer to our offering, and to integrate the Blockchain functionally. We have created our development plan for our solution balancing between the necessity for user friendliness, the growing desire for the cryptocurrency community to act in a decentralized manner, and responsibility to the community to create mechanisms in the smart contracts to promote truthfulness in our offering. 
 
 Based on the state of consensus, there will be micro rewards associated with each field of a screener that a research community member successfully helps complete. These micro rewards will be facilitated in a low cost micro raiden solution, discussed further herein.
+
+### Data Publication Phase
+
+For a certain duration of the platform alpha release, certified analysts receive the result from data reviewers and which one has been accepted as a consensus. However, once the data is validated with 75% consensus, it should be pushed into the system automatically. At this time there is a mechanism to publish the state of this information to the blockchain and assure transparency for decentralized actors. [Read more about structured data state on the blockchain](#Data-Signing-and-Screeners-on-the-Blockchain)
+
+After analyzing the results, The analyst or the system publishes the data to the platform. Researchers will receive reward depending on the speed of their submission, whether they acted in the submission or validation phase for this data, and the complexity of the field combined with their level. 
+
+For simple quantitative data (might be available to the newcomers), consensus from the certified reviewers will likely result in the data being published directly on the platform without having to be analyzed by certified analysts.
+
+As users continue to interact in the Svandis ecosystem the platform will capture their acheivements. A reputation module will be available to the research community with personal statistics: progression on a daily basis, amount of data entered, validated, etc.
+
+
+### Data Modification Phase
+
+Each project’s grid has a "flag" option available for any participant of the research community, for when a field is not "up to date". This is to trigger data modification of projects, that will be constantly changing parameters such as token sale design, team members and working product milestones.
+
+Once the researcher enters the updated data in the grid, it follows the same process as a new data validation dependent on the field complexity. 
+
+Some data fields may have to change constantly, example: the current amount of token sold during an ICO. Those will be reserved for the analysts to update them when needed.
+
+Users will have the option to receive alerts when their favourite screener grids have been updated by a consensus reaching body of users, to always have up to date information on projects in addition to catalysts.
+
+
+### Token Project Participants
+
+There will be a second category of users that include project participants (CEO, Founders). The majority of the platform users will be independent but there will be an option to register as a user from an existent project / company. Each of those participants will require an extensive KYC to prove the relationship between him and the project itself. Once registered, the project participant will be able to submit his own project or contest data. Researchers are in charge of validating the data, while mediators take care of data contestation. This type of user will be able to connect their profile directly to team section of the project and get project specific notifications.
+
+Participants directly connected to the Svandis platform and verified can then add contact information for users to reach out with questions about the project or business opportunities.
+
 
 ## SVN Token Economics
 
@@ -549,7 +556,7 @@ The SVN token is an ERC20 Compliant Token to be deployed on the blockchain. Our 
 
 We will provide several levels of access to our features with SVN tokens. Access will be given to token holders and we will also add the option to purchase access to products with SVN tokens. Basic-level access will be provided for free, including the screening functions and a newsfeed with a time delay. The main functions of the feature will only be accessible using SVN tokens. 
 
-Levels of access to our products will be published after the release of products.
+Levels of access to our products will be published after the release of products. SVN token will be useful for all purchases from the Svandis organization.
 
 Our goal is to release products that will significantly improve the analytical rigour of the crypto markets, while reducing the time participants spend on such analysis. Professional traders are prepared to pay for valid and reliable information that can afford them a competitive advantage in trading on the markets. 
 
@@ -574,8 +581,14 @@ To deal with quick token transfers, we can use a custom off chain settling solut
 
 Micro Raiden will be the specific implementation we will add, for quick svn token transfers facilitating plenty of micro rewards in wei. The exact integration with smart contracts and backend solutions is under development and is subject to the current best practices for token transfers.
 
+## Ecosystem Evolution
+
+The first phase of the Svandis Ecosystem is curating the highest quality and most up to date cryptocurrency information in the world. The second phase will be delivering more control to the Research Community by giving ownership of the Svandis Ecosystem smart contracts to a Decentralized Autonomous ogranization (DAO). In this manner, Svandis is dedicated to creating a decentralized solution that one day will be able to sustain its own growth and cultivation autonomously.
+
 # Conclusion
 
-The Svandis team is proud to propose this technical solution for the creation of a Decentralized Research Community and platform which will enrich the cryptocurrency trading experience for beginners and seasoned crypto veterans alike. This document acts as a living technical whitepaper for the time being and we are open to the community proposing Pull Requests to improve the content or even propose new ideas or alternative opinions on the development of the Research Community.
+The Svandis team is proud to propose this technical solution for the creation of a Decentralized Research Community and platform which will enrich the cryptocurrency trading experience for beginners and seasoned crypto veterans alike. 
+
+This document acts as a living technical whitepaper for the time being and we are open to the community proposing Pull Requests to improve the content or even propose new ideas or alternative opinions on the development of the Research Community.
 
 Feedback and issues are welcome from the community. The goal of our solution is to be decentralized first and offer a lightweight solution to increase the transparency of our offering.
