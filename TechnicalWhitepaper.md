@@ -230,7 +230,7 @@ In addition to the heatmaps, users will be able to group cryptocurrencies and to
 
 Heatmaps will be built on the Svandis front end application to add another perspective to traders. They will be built using [D3 technology](https://github.com/d3/d3) in javascript. This module has plenty of use in the online community and we can build a strong platform for our heatmaps upon it.
 
-Groups and filters will be available in correlation with the heatmaps and they will be customizable for traders to analyze the datapoints most relevant to their investigation.
+Groups and filters will be available in correlation with the heatmaps and they will be customizable for traders to analyze the datapoints most relevant to their investigation. Users will be able to share groups they find useful. An example of a group can be a selection of cryptocurrencies with same type of blockchain or based on custom selection such as "ICO's with YTD positive returns from a 2018 bear market".
 
 ## Watchlists and Alerts
 
