@@ -292,6 +292,7 @@ The marketplace will include userful content such as:
 * Subscriptions to "top picks" by expert traders
 * Premium analytics from users who opt in to show their trading history, performance and portfolio in exchange for SVN token rewards
 * Subscribe to third party watchlists, alerts and catalyst feeds
+* Access to partner data feeds including code reviews by Blockchain Experts
 * Limited edition Svandis skins and visual customizations
 * Other integrated third party partner applications 
 
@@ -585,7 +586,7 @@ Micro Raiden will be the specific implementation we will add, for quick svn toke
 
 The first phase of the Svandis Ecosystem is curating the highest quality and most up to date cryptocurrency information in the world. This task has a big dependence on the internal Svandis team to act as a trusted organization while advancements in technology and community building allow us to move from centralized solutions towards the decentralized.
 
-The second phase will be delivering more control to the Research Community by giving ownership of the Svandis Ecosystem smart contracts to a Decentralized Autonomous ogranization (DAO). In this manner, Svandis is dedicated to creating a decentralized solution that one day will be able to sustain its own growth and cultivation autonomously.
+The second phase will be delivering more control to the Research Community by transferring ownership of the Svandis Ecosystem smart contracts to a Decentralized Autonomous ogranization (DAO) smart contract. In this manner, Svandis is dedicated to creating a decentralized solution that one day will be able to sustain its own growth and cultivation autonomously.
 
 # Conclusion
 
