@@ -1,7 +1,9 @@
-![Svandis](/images/image1.png?raw=true "Svandis")
+﻿<p align="center">
+  <a href="http://svandis.io/" target="blank"><img src="/images/image1.png?raw=true" width="320" alt="Svandis" /></a>
+</p>
 # Svandis.io Technical Whitepaper
 
-**September 26, 2018**
+**October 5th, 2018**
 
 **Abstract:** 
 Svandis is developing a platform for crypto market participants, providing leading financial research, analytical and visualisation tools for anyone actively involved in the cryptocurrency space: short- and long-term traders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sales contributors, and exchanges. 
