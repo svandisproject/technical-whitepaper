@@ -5,43 +5,25 @@
 
 **October 5th, 2018**
 
-**Abstract:** 
-Svandis is developing a platform for crypto market participants, providing leading financial research, analytical and visualisation tools for anyone actively involved in the cryptocurrency space: short- and long-term traders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sales contributors, and exchanges. 
+## Abstract
 
-The Svandis ecosystem is a collection of powerful tools, analytics, and indicators for professional traders in need of real-time, actionable data and analyses. Beginners will find it easy, professional traders will find it comprehensive. The Svandis ecosystem aggregates data from a wide range of sources into one place, transforming raw data into reliable and valuable information, and covering professional crypto market participants with up-to-the-minute news and updates filtered by the Svandis research community and analysts through a web-based application. 
+**Svandis mission**
+Every day, it is harder to evaluate the reliability and relevance of each information about the crypto space in a context of expanding industry with a fast multiplication of data sources. Svandis mission is to  offer a data hub platform with a trustable strategy to gather, validate, analyse and visualise objective and relevant data about the crypto market.
 
-Svandis provides users with a greater understanding of market conditions and trends, as well as a comprehensive platform for the evaluation of fundamentals behind cryptocurrency initiatives, e.g., initial coin offerings (ICOs) and token sales. Svandis aggregates data from a variety of sources; transforming data into reliable and actionable information for professional traders and beginners alike. 
+**The Platform**
+Svandis is a blockchain based data hub providing a research and visualisation platform to crypto market participants. All data is available at one place, gathered by the Internal **Analytics Team**, the **DataMining App** and the **Research Community** - a gamified validation system on blockchain. This results in valuable information available through the Svandis toolset : Newsfeed, Screeners (ICO and Altcoins), Catalyst analysis, Heatmaps, Alerts, Indices and Portfolio. By multiplying and expanding the opportunities for interoperability between the Svandis tools, true clarity and insight of data will be accessible. Additional features and products are offered by 3rd party strategic partners within Svandis Marketplace to allow better customized workflow.
 
-The Svandis platform provides leading financial research, analytical and visualisation tools for anyone actively involved in the space: short-term and swing traders, traditional holders, analysts, hedge funds, institutional investors, proprietary trading firms, venture capital funds, token sale contributors, and exchanges.
+Data gathering - Decentralized and crowdsourced due diligence
+The Svandis data gathering approach is decentralised. The Research Community and the DataMining App bring new possibilities concerning the speed of the availability of the data. Not only it is more efficient, but it bring the objectivity, the relevance and the reliability to the information.
 
-Every feature proposed is part of a strategic vision to enhance the user’s overview of the cryptocurrency market. Svandis tools generate a customisable way to cross-check a wide range of data and gain a perspective for different values. 
+The DataMining App is a cross-platform data-mining functionality. It is an open-source crawling application that users can install on their computers to participate into data crowdsourcing. This automated process will increase the speed and accuracy of the Svandis Newsfeed and Catalyst Analysis features.
 
-<details><summary>Expand Svandis Features: </summary><br>
+The Svandis Research Community is a Research and Data Verification mechanism allowing a multiple validation process to complete data integrity checks on ICOs and token sales, breaking news, catalyst submission and more. The goal is to ensure the validity of several categories of information, such as company and team backgrounds and ICO metrics, by using a standardised template to create consistency in the presentation of data.
 
+**Data processing**
+In order to facilitate a positive feedback loop between the Internal Analytics Team and the Research Community, we will be using machine learning to pinpoint catalysts and other events within the ecosystem. Machine learning will be used during the consensus mechanism as well to correlate similar information being presented by Research Community members.
 
-1. ICO and token-sale screener
-2. Cryptocurrency and token screener
-3. Newsfeed
-4. Charts
-5. Catalysts analysis
-6. Heatmaps and Groups
-7. Watchlists and Alerts
-9. Portfolio
-9. Svandis DataMining App
-10. Certified reviewer
-11. Data analysis
-12. Marketplace
-13. Svandis indices
-14. Indices builder
-15. Customised user interface
-</details><br>
-
-The Svandis Research Community will be involved in producing crowdsourced information of value through the DataMining app, receiving Svandis tokens (SVN) for their participation. In addition, the Svandis Team will certify reviewers and external analysts to complete data verification regarding ICO and token sale projects and teams.
-
-Svandis is a team of market traders, crypto enthusiasts, investors, engineers, and statisticians.  In crypto trading, timing is everything. Svandis aims to incorporate best practice from financial platforms to address the needs of everyone who is involved in the new era of cryptocurrency trading.
-
-
-**DISCLAIMER:** 
+## DISCLAIMER
 This Technical Whitepaper does not constitute an offer to sell or invitation to purchase any securities of any nature whatsoever, and the content of this presentation is not intended to constitute legal, commercial or tax advice. Some of the declarations contained in this WP constitute forward-looking statements and are subject to change.
  
 The Svandis Whitepaper is intended for preparation, description and information purposes only, and does not constitute an offer or solicitation to buy or sell any securities or invest in any of all types of financial instruments. This document is not compiled in compliance with, and is not subject to, the laws and regulations of any jurisdiction created to protect the investors. Nothing published by Svandis or one any of its subsidiaries should be taken as investment advice. Please consult an appropriate licensed professional before engaging in any financial transaction, including any investment related to the ideas or opinions expressed, in the past, present or future, by Svandis or any future entity working for the parent entity. The information document below should not be seen as exhaustive and does not imply any element of a contractual relationship. Its sole aim is to submit relevant and reasonable information to potential token holders so that they can determine whether they should undertake an in-depth analysis of the company before intending to acquire tokens.
@@ -67,6 +49,7 @@ This Technical Whitepaper, any portion or copy thereof shall not be brought, tra
   * [Svandis DataMining App](#svandis-datamining-app)
   * [Marketplace](#marketplace)
   * [Svandis Indices](#svandis-indices)
+  * [API Core](#api-core)
 - [Data Mining Architecture](#data-mining-architecture)
   * [Data Mining Workers](#data-mining-workers)
   * [Machine Learning & Sentiment Analysis](#machine-learning-and-sentiment-analysis)
@@ -199,14 +182,21 @@ Charts will be built ontop of the TradingView Platform, and will be accessable o
 
 ## Catalyst Analysis
 
-Svandis will offer its users the opportunity to visualise the impact of a significant event on the price fluctuations of a cryptoasset. The objective is to identify price influencing events on a chart, e.g., an announcement or publication, partnership announcement, new product feature, analysts’ and influencers’ mention or ranking update, change in legislation, legal prosecution, critical hirings, or potential mergers and acquisitions.
+Svandis will offer its users the opportunity to visualise the impact of a significant event on the price fluctuations of a cryptocurrency asset. The objective is to identify price influencing events on a chart, e.g., an announcement or publication, partnership announcement, new product feature, analysts’ and influencers’ mention or ranking update, change in legislation, legal prosecution, critical hirings, or potential mergers and acquisitions.
+
 These events might not have an immediate effect on a company’s fundamentals , but short-term traders will be able to benefit from the analysis of these elements on a cryptocurrency price fluctuations. This Svandis functionality will allow users to combine complementary data from multiple sources on a single chart. The data will be analysed by the Svandis Analytics Team to provide users with a better overview of the past and future impact of the various catalysts and related investment opportunities.
 
 Catalyst analysis uses a combination of standard data collection, our flagged newsfeed, and changes in price to create a meaningful offering for the community. These catalysts are meant to be posted onto a historical chart to try and visualize the effect of an event on a cryptocurrency.
 
-Svandis has the opportunity to use a combination of analyst human input, monitoring of price swings, and the flagged articles on the newsfeed to create catalysts. News feed articles contain both bullish/bearish sentiment indicators that the community can use to assign the sentiment of articles, they also have an "importance" flag in order to pinpoint significant articles. The catalyst will exemplify the affect of sentiment and significance in major stories on the resulting short-term price swing of the cryptocurrency. This will be an optional parameter to be posted on trading view charts afterwards. 
+Svandis has the opportunity to use a combination of analyst human input, monitoring of price swings, and the flagged articles on the newsfeed to create catalysts. News feed articles contain both bullish/bearish sentiment indicators that the community can use to assign the sentiment of articles, they also have an "importance" flag in order to pinpoint significant articles. The catalyst will exemplify the effect of sentiment and significance in major stories on the resulting short-term price swing of the cryptocurrency. This will be an optional parameter to be posted on tradingview charts afterwards.
 
-The flow for a catalyst will start with our backend using machine learning to seek out articles with strong sentiment and significance. This combined with price fluctuations will notify analysts of a potential catalyst. It will be up to random and responsive research community members to act as analysts and decide whether to notify the community of a catalyst or not. There will also be an option for the research community to add their own custom catalysts which may be based on existing news in the web feed or not.
+The workflow for identifying catalyst starts with our backend using machine learning to seek out articles with strong sentiment and significance. This is combined with monitoring of price fluctuations to notify analysts of a potential catalyst. It will be up to random and responsive research community members to act as analysts and decide whether to notify the community of a catalyst or not. There will also be an option for the research community to add their own custom catalysts which may be based on existing news in the web feed or not, which can be later on listed on the marketplace.
+
+In many cases there will be price fluctuations without any single identifiable cause or event causing. We can later on rationalize these fluctuations, however the specific cause is still unknown. This is a Black Swan catalyst, which will be available for users to tag on any price fluctuation driven catalyst. By tagging these events we gain a better understanding of what portion of large market movements can actually be attributed to a concise occurrence. 
+
+To sum up the active workflow, the backend server will be watching for changes of for example +/- 2% price swings in the course of 1 hour increments. If a price swing of this intensity is detected, machine learning algorithms will start analysis. It will analyze the quantity of news stories, the scale bearish/bullish sentiment (We want to correlate up swings with bullish sentiment for example), and significance levels for the news stories. If there is a signficant economic fluctuation that can be attributed to an increase of news and relevant sentiment, the system will add the most relevant tags to the from the content to the catalyst. If the solution cannot pinpoint a specific group of tags to describe the catalyst event occuring, the catalyst will be flagged as a Black Swan catalyst.
+
+In the case of Black Swan catalysts that cannot be automatically detected and diagnosed, the new catalyst notification will reach random online analysts who have the option whether to publish this catalyst to the community or not. 
 
 ## Heatmaps and Groups
 
@@ -306,6 +296,14 @@ The Svandis indices will be developed by the Internal Research and Analysis Team
 
 With Svandis, users will be able to formulate their own indices. This feature will allow the cryptocurrency market to be divided into user-defined subgroups for the tracking of price and volume changes. The Customised Index Builder will include varying parameters to help users search for and better organize cryptocurrencies.
 
+## API Core
+
+The fabric of the Svandis solution is woven by the API architecture. The Svandis API is based on PHP programming language. This service serves up information to user front end application. It is used in the collection of data from data mining users. The API works to also supply endpoints for Ico and Token screeners, in addition to blockchain signed message hashes that will go along with "signed data". The login mechanism to the API is with Java Web Authentication token, which allows for a given user to interact with the solution.
+
+The API is connected furthermore to the web feeds, for supplying the Svandis news feed. The information at the core of the Svandis solution is stored on a Cassandra database, which is accessible via the API. Svandis uses [Swagger](https://swagger.io) service for documentation of the API methods.     
+
+For Blockchain related functionalities, we will supply a Svandis Ecosystem Smart Contract explore query through the API. This will be a method of returning the data hashes for signed data stored on the database. It will allow for users to query for recent signatures of the decentralized research community who met consensus on an updated tokens. The explore query will allow to pinpoint the address of currently deployed Svandis smart contracts, and the transaction hashes for the function calls that happen on these contracts.
+
 # Data Mining Architecture
 ## Data Mining Workers
 
@@ -342,6 +340,10 @@ The Svandis ecosystem will be an industry first — a comprehensive crypto-r
 In order to sustain the highest quality of data about all the current existing projects, Svandis internal analytics will only be able to support the curation and building of the community. To manage such a vast amount of new and changing information we will be highly dependent on a research community made up of decentralized actors. The research community will be divided in levels and "Svandis Power" to ensure the most reputable and trustworthy actors have the most weight in the system.
 
 The cooperation of the Internal Svandis team with the Svandis Research Community is a pilar of the project, and as the project scales and grows, the philosophy is for the Research Community to require less dependence on the internal team over time. The final result is a curated registry of Cryptocurrency information that the Research Community can be proud to claim as their creation.
+
+We believe that bringing gamification concepts into the Svandis research community is a powerful approach to build a motivated and dedicated group of individuals toward reaching common goals. By doing efficient research on cryptocurrency and blockchain projects, users will evolve on a gamified platform which includes levels, milestones and achievements. The most proficient and productive users will have more power and privileges throughout Svandis platform, with titles and an on-chain reputation. Furthermore, that on-chain reputation is coupled with a decentralized identity only the user can control. 
+
+Having healthy competition among the research community enable us to get the best out of each participants, and will be easily trackable through real-time leaderboards to identify valuable researchers.  A key ingredient of any game is the reward, this is where our SVN token economy can provide a prominent incentive to engage our audience. An essential goal of the research community gamification is for each participants to help fellow researchers to take the most effective decisions regarding their own investments in the cryptocurrency industry.
 
 The following section contains the distinct roles within the research community and how they work together to create a valuable ecosystem.
 
@@ -562,6 +564,8 @@ We will provide several levels of access to our features with SVN tokens. Access
 Levels of access to our products will be published after the release of products. SVN token will be useful for all purchases from the Svandis organization.
 
 Our goal is to release products that will significantly improve the analytical rigour of the crypto markets, while reducing the time participants spend on such analysis. Professional traders are prepared to pay for valid and reliable information that can afford them a competitive advantage in trading on the markets. 
+
+The token is essential to an evolution of our ecosystem, and deliver more control to the decentralized users in our Research Community. As the community development moves more towards decentralization, the ERC20 Token economy will be important to offer ongoing value to a decentralized community that will earn the token as a reward for researching and curating high quality information.
 
 **Terms and Conditions**
 
