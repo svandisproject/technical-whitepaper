@@ -8,20 +8,20 @@
 ## Abstract
 
 **Svandis mission**
-Every day, it is harder to evaluate the reliability and relevance of each information about the crypto space in a context of expanding industry with a fast multiplication of data sources. Svandis mission is to  offer a data hub platform with a trustable strategy to gather, validate, analyse and visualise objective and relevant data about the crypto market.
+Every day, it is harder to evaluate the reliability and relevance of facts about the cryptocurrency space. With an expanding blockchain industry, the number of news sources reporting them is multiplying. The Svandis mission is to  offer a data hub platform with a trustable strategy to validate, analyse and visualise objective and relevant data about the crypto market in real time.
 
 **The Platform**
-Svandis is a blockchain based data hub providing a research and visualisation platform to crypto market participants. All data is available at one place, gathered by the Internal **Analytics Team**, the **DataMining App** and the **Research Community** - a gamified validation system on blockchain. This results in valuable information available through the Svandis toolset : Newsfeed, Screeners (ICO and Altcoins), Catalyst analysis, Heatmaps, Alerts, Indices and Portfolio. By multiplying and expanding the opportunities for interoperability between the Svandis tools, true clarity and insight of data will be accessible. Additional features and products are offered by 3rd party strategic partners within Svandis Marketplace to allow better customized workflow.
+Svandis is a blockchain based data hub providing a research and visualisation platform to crypto market participants. All data is available at one place, gathered by the Internal Analytics Team, the DataMining App and the Research Community - a gamified validation system on the blockchain. This results in valuable information available through the Svandis toolset : Newsfeed, Screeners (ICO and Altcoins), Catalyst analysis, Heatmaps, Alerts, Indices and Portfolio. By multiplying and expanding the opportunities for interoperability between the Svandis tools, true clarity and insight on data will be accessible. Additional features and products are offered by 3rd party strategic partners within Svandis Marketplace to provide a greater value offering for a trader’s workflow.
 
 Data gathering - Decentralized and crowdsourced due diligence
-The Svandis data gathering approach is decentralised. The Research Community and the DataMining App bring new possibilities concerning the speed of the availability of the data. Not only it is more efficient, but it bring the objectivity, the relevance and the reliability to the information.
+The Svandis data gathering approach is a decentralised-first methodology, where the research community is in control of their on the Blockchain identity. The Research Community and the DataMining App bring new possibilities concerning the speed of the available data. Not only it is more efficient, but it will bring the objectivity and reliability to the information. This hybrid solution balances scalability with  the needs of random consensus for the research community.
 
-The DataMining App is a cross-platform data-mining functionality. It is an open-source crawling application that users can install on their computers to participate into data crowdsourcing. This automated process will increase the speed and accuracy of the Svandis Newsfeed and Catalyst Analysis tools.
+The DataMining App is a cross-platform data-mining functionality for online news sources. It is an open-source crawling application that users can install on their computers to participate into data crowdsourcing. This automated process will increase the speed and accuracy of the Svandis Newsfeed and Catalyst Analysis features.
 
 The Svandis Research Community is a Research and Data Verification mechanism allowing a multiple validation process to complete data integrity checks on ICOs and token sales, breaking news, catalyst submission and more. The goal is to ensure the validity of several categories of information, such as company and team backgrounds and ICO metrics, by using a standardised template to create consistency in the presentation of data.
 
 **Data processing**
-In order to facilitate a positive feedback loop between the Internal Analytics Team and the Research Community, we will be using machine learning to pinpoint catalysts and other events within the ecosystem. Machine learning will be used during the consensus mechanism as well to correlate similar information being presented by Research Community members.
+In order to facilitate a positive feedback loop between the Internal Analytics Team and the Research Community, we will be using machine learning to pinpoint catalysts and other events within the ecosystem. Machine learning will be used during the consensus mechanism as well to correlate similar information being presented by Research Community members. Research community members will sign the data they present at consensus with an Ethereum key only they access, in order to build a positive reputation in their community.
 
 ## DISCLAIMER
 This Technical Whitepaper does not constitute an offer to sell or invitation to purchase any securities of any nature whatsoever, and the content of this presentation is not intended to constitute legal, commercial or tax advice. Some of the declarations contained in this WP constitute forward-looking statements and are subject to change.
@@ -259,6 +259,7 @@ Svandis will deploy a series of solidity smart contracts "The Svandis Ecosystem"
 
 ![Ecosystem](/images/image5.png?raw=true "Ecosystem")
 
+**Multi Language** is one of the fundamentals of the Ecosystem, including the screeners but also expanding to the newsfeed and dashboard. In order to support a global crypto community, we plan to integrate our front end Svandis application offering with translation services serving factual information in a scope of languages on the fly. Cryptocurrency projects attract users from all corners of the globe. Allowing new users understand the facts in their mother tounge is one of the best ways Svandis can contribute to blockchain adoption.
 
 ## Svandis DataMining App
 Svandis will offer users a data-mining functionality upon the cross-platform DataMining Application. The DataMining App is an open-source crawling application that users can install on their computers to participate into data crowdsourcing. Crawling is systematically visiting a number of web pages in order to create and index data. The DataMining App is an automated software that crawl websites, grabbing copies of pages to index. 
@@ -298,7 +299,7 @@ With Svandis, users will be able to formulate their own indices. This tool will 
 
 ## API Core
 
-The fabric of the Svandis solution is woven by the API architecture. The Svandis API is based on PHP programming language. This service serves up information to user front end application. It is used in the collection of data from data mining users. The API works to also supply endpoints for Ico and Token screeners, in addition to blockchain signed message hashes that will go along with "signed data". The login mechanism to the API is with Java Web Authentication token, which allows for a given user to interact with the solution.
+The fabric of the Svandis solution is woven by the API architecture. The Svandis API is based on PHP programming language, and uses [Symfony](https://symfony.com) as a framework. Symfony was chosen for its high quality offering in web applications such as the Svandis API. This service serves up information to user front end application. It is used in the collection of data from data mining users. The API works to also supply endpoints for Ico and Token screeners, in addition to blockchain signed message hashes that will go along with "signed data". The login mechanism to the API is with Java Web Authentication token, which allows for a given user to interact with the solution.
 
 The API is connected furthermore to the web feeds, for supplying the Svandis news feed. The information at the core of the Svandis solution is stored on a Cassandra database, which is accessible via the API. Svandis uses [Swagger](https://swagger.io) service for documentation of the API methods.     
 
@@ -369,7 +370,7 @@ The current plan for the research community involves various levels, achieved th
 | 12  | Validate new project submission. | 2.2 |
 | 13  |  | 2.5 |
 | 14  |  | 2.8 |
-| 15  | Premium Marketplace unlocks? | 3 |
+| 15  | Premium Marketplace Unlocks | 3 |
 | 16  |  | 3.2 |
 | 17  |  | 3.5 |
 | 18  |  | 3.8 |
@@ -516,7 +517,7 @@ Every screener on the blockchain is a piece of "Svandis data", it can be upgrade
 
 To make a decision on behalf of beginner and expert accounts working together, there needs to be a consensus made. The power and rating effect on consensus and quantity of token rewards is subject to changes in the Research Community token economics. 
 
-The mechanism of consensus will rely on **10 users** interacting in either the Data Submission or Validation phase. These users must be randomly selected by Svandis off chain and this will be based **on a randomized selection using entropy from the last Ethereum block hash**.  To participate, technically the 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.
+The mechanism of consensus will rely on **10 users** interacting in either the Data Submission or Validation phase. These users must be randomly selected by Svandis off chain and this will be based **on a randomized selection using entropy from the last Ethereum block hash**.  To participate, technically the 10 online users selected will first transmit a signed data hash with hidden data to Svandis. Once 10 online users have submitted to the consensus, they will reveal another signed "secret" which can be used for trustless confirmation of what they researched for this data field. Through a combination of Machine learning, data analyst parameters, and UX features Svandis will make a decision on whether a consensus was reached between users.  Machine learning can correlate similar information being presented by Research Community members in situations where a distinct quantitative answer is not concluded.
 
 Successful consensus reached by over 75% of users based on the Svandis power attributed to the given users' ratings, means that there is a new hashed data state to characterize the structured data representing a screener. Svandis will at this point publish to the blockchain (in low frequency intervals and publicly providing a signed transaction, as mentioned herein) alongside publishing the exact signed message hash that the decentralized community members originally submitted. If consensus is not reached there will be no change on the blockchain, if there is an action later on by Svandis Internal analytics team this might trigger an action being recorded on chain.
 
@@ -565,7 +566,7 @@ Levels of access to our products will be published after the release of products
 
 Our goal is to release products that will significantly improve the analytical rigour of the crypto markets, while reducing the time participants spend on such analysis. Professional traders are prepared to pay for valid and reliable information that can afford them a competitive advantage in trading on the markets. 
 
-The token is essential to an evolution of our ecosystem, and deliver more control to the decentralized users in our Research Community. As the community development moves more towards decentralization, the ERC20 Token economy will be important to offer ongoing value to a decentralized community that will earn the token as a reward for researching and curating high quality information.
+The token is essential to an evolution of our ecosystem, and deliver more control to the decentralized users in our Research Community. As the community development moves more towards decentralization, the ERC20 Token economy will be important to offer ongoing value to a decentralized community that will earn the token as a reward for researching and curating high quality information. The quality and breadth of the information that Svandis maintains should positively effect its cryptocurrency market over time.
 
 **Terms and Conditions**
 
