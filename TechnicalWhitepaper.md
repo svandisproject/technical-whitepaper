@@ -319,7 +319,7 @@ For Blockchain related functionalities, we will supply a Svandis Ecosystem Smart
 
 Bundled with the front-end Desktop Application for Linux, Windows, and MacOS, we have included our worker module. Within the application, users can find a datamining sub-application, where, after acknowledging terms and conditions, they will proceed to mine web-feed information on their machine. Our web feeds are curated lists of trustworthy news sources, carefully selected based on CSS Selectors on the websites from which they originate. Not all news information will be blockchain or cryptocurrency related, so our carefully selected tags and machine-learning generated tags will extract URLs only of relevant articles. In return for lending the processing power on their machine, users mining for web feeds will receive SVN rewards.
 
-The front-end Svandis application is bundled with [Electron technology](https://github.com/electron) so that it can be offered across various platforms. The front end is based on Angular 6 and Javascript.
+The front-end Svandis application is bundled with [Electron technology](https://github.com/electron) so that it can be offered across various platforms. The front end is based on Angular and TypeScript.
 
 The desktop worker crawls for links, and afterwards sends to the socket server build on NestJS technology. Our active server socket validates them and, if the link has not been crawled, it will indicate as such to the worker. It is then the task of the worker to forward the data to the backend content-extractor written in Python programming language. This backend content-extractor will integrate machine learning to improve the quality of the tags being used by the platform to curate feeds.
 
