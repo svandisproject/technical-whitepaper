@@ -1,6 +1,7 @@
 ﻿<p align="center">
   <a href="http://svandis.io/" target="blank"><img src="/images/image1.png?raw=true" width="320" alt="Svandis" /></a>
 </p>
+
 # Svandis.io Technical Whitepaper
 
 **October 25th, 2018**
