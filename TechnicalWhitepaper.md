@@ -245,7 +245,7 @@ Svandis is developing a visual heatmap of the market that will help traders chec
 
 In addition to the heatmaps, users will be able to group cryptocurrencies and tokens included in the Svandis screener. This grouping tool will allow crypto-assets to be visualized by sector, industry, geography and capitalization. Each group will be sortable by different filters and visualization options, e.g., tables, bar charts, spectra, grids, etc. Users can select to display group information onto a heatmap.
 
-Heatmaps will be built on the Svandis front-end application to present another perspective to traders. They will be built using [D3 technology](https://github.com/d3/d3) in Javascript. This module has a plethora of use within the online community, and we can build a powerful platform for our heatmaps upon it.
+Heatmaps will be built on the Svandis front-end application to present another perspective to traders. They will be built using [D3 technology](https://github.com/d3/d3). This module has a plethora of use within the online community, and we can build a powerful platform for our heatmaps upon it.
 
 Groups and filters will be available with the heatmaps, and they will be customizable for traders to analyze the data points most relevant to their research needs. Users will be able to share groups they find useful. An example of a group would be the selection of cryptocurrencies with same type of blockchain or based upon a thematic commonality, such as "ICOs with Year To Date (YTD) positive returns from the 2018 bear market."
 
@@ -263,7 +263,7 @@ The portfolio for a given user will be available on their front-end Svandis appl
 ## Customisable User-Interface
 Every Svandis user will have a customizable interface to arrange and present data in the most suitable way for their trading needs. It will include different colour schemes and layouts for added customization.
 
-The Svandis application is built on top of Angular 6 and Angular Material Design. The application will act as a customizable dashboard where users will be able to customize styling as mentioned, as well as save default configuration for their charts, heatmaps, and portfolios. The customizability of the UI will allow traders to get all information they need on one dashboard without having to have multiple tabs and services open on their local machine.
+The Svandis application is built on top of Angular and Angular Material Design. The application will act as a customizable dashboard where users will be able to customize styling as mentioned, as well as save default configuration for their charts, heatmaps, and portfolios. The customizability of the UI will allow traders to get all information they need on one dashboard without having to have multiple tabs and services open on their local machine.
 
 ## The Svandis Ecosystem
 
@@ -352,7 +352,7 @@ Throughout the backend for example with the worker-api project, there is use of 
 
 Bundled with the front-end Desktop Application for Linux, Windows, and MacOS, we have included our worker module. Within the application, users can find a data mining sub-application, where, after acknowledging terms and conditions, they will proceed to mine web-feed information on their machine. Svandis web feeds are curated lists of trustworthy news sources, carefully selected based on CSS Selectors on the websites from which they originate. Not all news information will be blockchain or cryptocurrency related, so our carefully selected tags and machine-learning generated tags will extract URLs only of relevant articles. In return for lending the processing power on their machine, users mining for web feeds will receive SVN rewards.
 
-The front-end Svandis application is bundled so that it can be offered across various platforms. The front end is based on Angular 6 and Typescript. Front end testing is based on [Karma Jasmine unit tests](https://jasmine.github.io) & [Protractor e2e](https://www.protractortest.org/) frameworks to assure a fluid user experience.
+The front-end Svandis application is bundled so that it can be offered across various platforms. The front end is based on Angular and Typescript. Front end testing is based on [Karma Jasmine unit tests](https://jasmine.github.io) & [Protractor e2e](https://www.protractortest.org/) frameworks to assure a fluid user experience.
 
 The desktop worker crawls for links, and afterward sends to the worker-api server project built on NestJS technology. Our active server socket validates them and, if the link has not been crawled, will indicate as such to the worker. It is then the task of the worker to forward the data to the backend content-extractor written in Python. This backend content-extractor will integrate natural language processing and pattern recognition to improve the quality of the tags being used by the platform to curate feeds.
 
