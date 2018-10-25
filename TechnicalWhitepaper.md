@@ -14,7 +14,7 @@ Every day, the difficulty in evaluating the reliability and relevance of facts w
 **The Platform**
 Svandis is a blockchain-based data platform providing research and visualization tools to crypto market participants. All data is aggregated in one place, gathered by the DataMining App and Research Community, a gamified validation system on the Ethereum blockchain. This valuable and trusted data is then accessible via the Svandis toolset: Newsfeed, Screeners (ICO and Altcoins), Catalyst Analysis tools, Heatmaps, Alerts, Indices, and Portfolio. By multiplying and expanding the opportunities for interoperability between the Svandis tools, true clarity and insight into data becomes possible, in the form of a modular dashboard. Additional features and products are offered by third-parties within the Svandis Marketplace to provide a broader product line for traders.
 
-Data gathering - Decentralized and crowdsourced due diligence
+**Data gathering through Decentralized and crowdsourced due diligence**
 
 Svandis approach to data gathering starts with a decentralized Research Community with users who have control of their own blockchain identity. The Research Community and DataMining App bring new possibilities in the speed of available data. Not only is the process of accumulating cryptocurrency information faster and more efficient, but it brings much-needed objectivity and reliability to the information. This hybrid solution balances scalability with the needs for off blockchain scalable decision making for the Research Community.
 
