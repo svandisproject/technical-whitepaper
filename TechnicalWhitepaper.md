@@ -680,6 +680,6 @@ Svandis is dedicated to creating a decentralised solution that one day will be a
 
 The Svandis team is proud to propose this technical solution for the creation of a Decentralized Research Community and platform which will enrich the cryptocurrency trading experience for beginners and seasoned crypto veterans alike.  In order to have reliable and wide accumulation of information for the decentralized ecosystem, it is essential that we build the tools which will facilitate crowd participation in the due diligence processes.
 
-This document acts as a living technical whitepaper for the time being, and we are open to the community proposing pull requests to improve the content or even proposing new ideas or alternative opinions on the development of the Research Community.
+This document acts as a living technical whitepaper for the time being, and we are open to the community proposing pull requests to improve the content or even proposing new ideas or alternative opinions on the development of the Research Community. The Svandis internal team will review any potential updates in a promptly fashion, and  commits to furthermore keeping this document up to date.
 
 Feedback and issues are welcome from the community. The goal of our solution is to be promote decentralization and offer a lightweight solution to increase the transparency of our offering.
