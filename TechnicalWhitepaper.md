@@ -603,7 +603,8 @@ Participants directly connected to the Svandis Platform and verified can then ad
 
 ## SVN Token Economics
 
-The SVN Token
+**The SVN Token**
+
 The SVN token is an ERC20-Compliant Token to be deployed on the blockchain. Our Crowdsale Contract (https://github.com/svandisproject/smart-contract) contains an example of our current token contract.
 
 SVNs are fungible utility tokens, have a finite supply and have the following functions:
@@ -614,21 +615,24 @@ SVNs are fungible utility tokens, have a finite supply and have the following fu
 * Providing access to the different service levels of the Svandis platform;
 * Providing access to additional Svandis and third party products and services on the Svandis Marketplace.
 
-SVN in the Research Community
+**SVN in the Research Community**
+
 SVN tokens provide a contingency management system. The reward for the participation of Research Community members fluctuates according to the time required to collect information and the number of members available to perform a task for a given period. This approach promotes maximum participation outside peak periods when fewer participants are available. In this way, the internal economy stimulates more constant productivity and data validation over a 24-hour period. The tools in the Svandis platform use the continuously produced data to ensure up-to-date information. 
 
 To encourage active participation of members in the Research Community, token rewards are immediate. In this context, earning the SVN utility token is an economic reward that encourages the frequency and effectiveness of participation. Token SVNs are used in conjunction with a multi-level gamification system. Higher-level tasks may offer higher rewards; difficult-to-acquire data may be scaled several times higher for successful researchers. As a participant progresses through these levels, progressive access to new tasks will consequently unlock more opportunities for rewards in token SVN. On the other hand, low participation, inactivity, inaccuracy, and regularly erroneous work will cause participants to regress in gamification levels. 
 
-SVN in the DataMining App
+**SVN in the DataMining App**
+
 The DataMining app coupled with the added benefits of a specific SVN token allows Svandis to achieve economies of scale more rapidly in data scraping and processing, i.e., encouraging with SVN rewards a critical mass of participants to use the DataMining App more actively. The objective is to ensure as many automated data collection actions as possible. The rewards will depend on the duration of use of the DataMining App, the volume of data transmitted for a given period of time, and the task requirements for bandwidth usage or computing power required over time.
 
-SVN Token Volumetrics
+**SVN Token Volumetrics**
+
 The Svandis platform offers information services that enhance market understanding. The collection and validation of this information is based on a mixed crowdsourcing strategy supported by an Internal Analytics Team. There is an internal token economy based on the value of the information for Svandis platform users versus the cost of the work required to collect and process it via the Research Community and the DataMining App. 
 
 Utilizing the SVN, Svandis increases the likelihood of reaching economies of scale more rapidly. The more participants in the Research Community and the users of the DataMining App, the more powerful the data collection becomes. This virtuous loop improves the quality of Svandis' services while reducing production cost. The objective is greater long-term competitiveness regarding the platform's access costs for users. As the gamification dynamics improve and we become more efficient at curating new data, this will mean a better product for users at a lower cost. Gradually, Svandis will use and direct the mass of SVNs in circulation to develop new products, such as Svandis Grid on demand for third parties. These new products will generate new tasks for the Research Community, and therefore new reward opportunities. 
 
 
-SVN - Access Level
+**SVN - Access Level**
 
 Svandis offers several levels of access to its services and tools. Continuous holding of a fixed quantity of SVN will provide access to different plans with tiered discounts on services or enhanced toolsets for more advanced trading insights and data. The possibility of using SVNs to purchase different monthly access levels will also be offered. The packages available allow users to choose from a variety of options or pre-determined packages. Levels of access to our products will be published after the release of products.
 
