@@ -15,6 +15,7 @@ Every day, the difficulty in evaluating the reliability and relevance of facts w
 Svandis is a blockchain-based data platform providing research and visualization tools to crypto market participants. All data is aggregated in one place, gathered by the DataMining App and Research Community, a gamified validation system on the Ethereum blockchain. This valuable and trusted data is then accessible via the Svandis toolset: Newsfeed, Screeners (ICO and Altcoins), Catalyst Analysis tools, Heatmaps, Alerts, Indices, and Portfolio. By multiplying and expanding the opportunities for interoperability between the Svandis tools, true clarity and insight into data becomes possible, in the form of a modular dashboard. Additional features and products are offered by third-parties within the Svandis Marketplace to provide a broader product line for traders.
 
 Data gathering - Decentralized and crowdsourced due diligence
+
 Svandis approach to data gathering starts with a decentralized Research Community with users who have control of their own blockchain identity. The Research Community and DataMining App bring new possibilities in the speed of available data. Not only is the process of accumulating cryptocurrency information faster and more efficient, but it brings much-needed objectivity and reliability to the information. This hybrid solution balances scalability with the needs for off blockchain scalable decision making for the Research Community.
 
 The Svandis Research Community is a “Research and Data Verification” mechanism with a multiple validation process to complete data integrity checks on ICOs and token sales. This can include any token,  including tokens governed by decentralized autonomous organizations or stablecoins. Furthermore, the Research Community assists newsfeed curation, catalyst validation and more in return for token rewards. The goal is to ensure the validity of several categories of information by using a standardized template to create consistency in the presentation and reliability of data. 
@@ -41,28 +42,39 @@ This Technical Whitepaper, any portion or copy thereof shall not be brought, tra
 - [Toolset Overview](#toolset-overview)
  * [ICO & Token Sale Screener](#ico-and-token-sale-screener)
  * [Cryptocurrency & Token Screener](#cryptocurrency-and-token-screener)
- * [News Feed](#news-feed)
+ * [News Feed](#newsfeed)
  * [Charts](#charts)
- * [Catalysts Analysis](#catalysts-analysis)
+ * [Catalysts Analysis](#catalyst-analysis-tool)
  * [Heatmaps & Groups](#heatmaps-and-groups)
  * [Watchlist & Alerts](#watchlist-and-alerts)
  * [Portfolio](#portfolio)
  * [Customized Interface](#customisable-user-interface)
+ * [The Svandis Ecosystem](#the-svandis-ecosystem)
  * [Svandis DataMining App](#svandis-datamining-app)
- * [Marketplace](#marketplace)
+ * [Svandis Marketplace](#svandis-marketplace)
  * [Svandis Indices](#svandis-indices)
  * [API Core](#api-core)
 - [Data Mining Architecture](#data-mining-architecture)
  * [Data Mining Workers](#data-mining-workers)
  * [Machine Learning & Sentiment Analysis](#machine-learning-and-sentiment-analysis)
  * [Svandis Database](#svandis-database)
-- [Research Community Blockchain Architecture](#research-community-blockchain-architecture)
- * [ERC 725/735 Identity](#erc-725-and-735-identity)
- * [Decentralization of Research Community](#decentralization-of-research-community)
- *[Screeners Workflow for the Research Community](#screeners-workflow-for-the-research-community)
- * [Data Signing & Screeners](#data-signing-and-screeners)
- * [Consensus & Off Chain Settlement](#consensus-and-off-chain-settlement)
- * [Token Economics](#token-economics)
+- [Research Community Structure](#research-community-structure)
+ * [Roles in the Research Community](#roles-in-the-research-community)
+- [Ratings and Svandis Power](#rating-and-svandis-power)
+ * [Rating](#rating)
+ * [Svandis Power](#svandis-power)
+ * [Newsfeed Rating](#newsfeed-rating)
+- [Blockchain Architecture](#blockchain-architecture)
+ * [ERC 725/735 Identity](#erc-725735-decentralized-identities)
+- [Screeners Workflow for the Research Community](#screeners-workflow-for-the-research-community)
+ * [Data Submission Phase](#data-submission-phase)
+ * [Data Validation Phase](#data-validation-phase)
+ * [Data Signing and Screeners on the Blockchain](#data-signing-and-screeners-on-the-blockchain)
+ * [Consensus and Off-Chain Settlement](#consensus-and-off-chain-settlement)
+ * [Blockchain Data Publication Phase](#blockchain-data-publication-phase)
+ * [Data Modification Phase](#data-modification-phase)
+ * [Token Project Participants](#token-project-participants)
+ * [SVN Token Economics](#svn-token-economics)
  * [ERC20 Micro Rewards on MicroRaiden](#erc20-micro-rewards-on-microraiden)
  * [Ecosystem Evolution](#ecosystem-evolution)
 - [Conclusion](#conclusion)
@@ -91,38 +103,38 @@ The ICO and token sale screener will sort and filter past and future ICO’s and
 <details><summary>Expand examples of filters available:</summary><br>
 
 
-Algorithm
-Type
-Hard Cap
-Min Cap
-Max supply
-Sale Supply
-Price USD/ETH
-Investors
-Whitepaper
-Private sale
-Bounty
-Days left
-Staking
-Masternodes
-Burning
-Protocol or dApp
-Type of Consensus
-Sector
-Algorithm
-Type
-KYC (investment range)
-Country
-Country restriction
-Actual sale stage
-Demo availability
-Accepted currencies
-Project completion
-% Tokens to the team
-% of Tokens being sold
-Smart contract audit
-Individual cap
-Medium/Telegram/Twitter followers, Reddit subscriber
+* Algorithm
+* Type
+* Hard Cap
+* Min Cap
+* Max supply
+* Sale Supply
+* Price USD/ETH
+* Investors
+* Whitepaper
+* Private sale
+* Bounty
+* Days left
+* Staking
+* Masternodes
+* Burning
+* Protocol or dApp
+* Type of Consensus
+* Sector
+* Algorithm
+* Type
+* KYC (investment range)
+* Country
+* Country restriction
+* Actual sale stage
+* Demo availability
+* Accepted currencies
+* Project completion
+* % Tokens to the team
+* % of Tokens being sold
+* Smart contract audit
+* Individual cap
+* Medium/Telegram/Twitter followers, Reddit subscriber
 
 
 </details><br>
@@ -134,31 +146,31 @@ The screener will sort and filter cryptocurrencies and tokens according to a var
 <details><summary>Expand examples of filters available:</summary><br>
 
 
-Market Cap 
-Exchange
-Algorithm
-Type
-Price
-Performance
-Max supply
-Volume 24h
-Age
-Circulating supply
-Sector
-Type
-Average volume 52 weeks
-ICO amount
-Return on ICO USD/ETH
-Medium/Telegram/Twitter followers, Reddit subscriber
-Svandis Indice
-Performance (price and volume)
-Moving average (Price and Price Crossover)
-Oscillators (RSI, Stochastic oscillator, Stochastic RSI, William %R)
-Trend indicators (MACD, MACD Histogram, Parabolic SAR, ADX)
-Ichimoku Cloud (Price/Cloud, Tenkan/Kijun)
-Volatility (ATR, Bollinger bands)
-Volume (Ease of movement, OBV)
-NVT Signal, NVT Ratio
+* Market Cap 
+* Exchange
+* Algorithm
+* Type
+* Price
+* Performance
+* Max supply
+* Volume 24h
+* Age
+* Circulating supply
+* Sector
+* Type
+* Average volume 52 weeks
+* ICO amount
+* Return on ICO USD/ETH
+* Medium/Telegram/Twitter followers, Reddit subscriber
+* Svandis Indice
+* Performance (price and volume)
+* Moving average (Price and Price Crossover)
+* Oscillators (RSI, Stochastic oscillator, Stochastic RSI, William %R)
+* Trend indicators (MACD, MACD Histogram, Parabolic SAR, ADX) 
+* Ichimoku Cloud (Price/Cloud, Tenkan/Kijun)
+* Volatility (ATR, Bollinger bands)
+* Volume (Ease of movement, OBV)
+* NVT Signal, NVT Ratio
 
 
 </details>
@@ -170,12 +182,12 @@ Svandis is developing a customizable newsfeed for different markets, with an ini
 With access to the Svandis newsfeed, crypto-market participants will no longer need to follow hundreds of Twitter accounts, subscribe to newsletters, keep numerous tabs opened in their web browser, alternate between sources, etc. They will receive all the information they need in one place, and will be among the first to know when and why the market is moving. Svandis will track thousands of sites both automatically and manually, fetching and highlighting the most important items using machine learning, language processing, the human insight of the Research Community and professional analysts and journalists.
 
 Each news source will be assigned a set of tags, including but not limited to:
-**Descriptors:** Name of the digital asset, ICO or token sale, symbol
-**Sector:** Art, Sports, Gambling, Education, Banking, Business services, Charity, Cryptocurrency, etc
-**Category:** Partnership, Project update, Token sale, New Listing, Legal,  Regulation, Event
-**Importance:** Regular News, Hot News, Breaking News
-**Sentiment:** Bullish, Bearish
-**Media type:** video, article, blog, image/infographic, forum/discussion group
+* **Descriptors:** Name of the digital asset, ICO or token sale, symbol
+* **Sector:** Art, Sports, Gambling, Education, Banking, Business services, Charity, Cryptocurrency, etc
+* **Category:** Partnership, Project update, Token sale, New Listing, Legal,  Regulation, Event
+* **Importance:** Regular News, Hot News, Breaking News
+* **Sentiment:** Bullish, Bearish
+* **Media type:** video, article, blog, image/infographic, forum/discussion group
 
 Crypto-market participants seeking real-time information will be able to customize their newsfeed according to their needs. For example, if a trader is interested in a token that has just been issued after a token sale, and is not yet listed on any of the major exchanges, they will be able to configure their newsfeed in such a way that they will receive news about this particular token in regards to exchange listings, or post ICO/token sale status. As the popularity of the Svandis Platform grows, the goal is to sign exclusive contracts with companies, exchanges and other news sources in order to publish their own news releases first at a predetermined time, in a single place and without information leaks.
 
@@ -562,7 +574,7 @@ This process is necessary to provide a lightweight and transparent layer to our 
 
 Based on the state of consensus, there will be micro rewards associated with each field of a screener that a Research Community member successfully helps complete. These micro-rewards will be facilitated in a low-cost Micro Raiden solution, discussed further herein.
 
-### Data Publication Phase
+### Blockchain Data Publication Phase
 
 For a certain duration of the platform alpha release, Certified Analysts will receive the result from Data Validators with a low % consensus. However, once the data is validated with X% consensus, it should be pushed into the system automatically. At this time there is a mechanism to publish the state of this information to the blockchain and assure transparency for decentralized actors. [Read more about structured data state on the blockchain](#Data-Signing-and-Screeners-on-the-Blockchain)
 
@@ -645,6 +657,7 @@ The Svandis Community will receive rewards for expediting the process of data ga
 Issuing infrastructure tokens specific to Svandis will help limit the number of participants who have early access to the platform, which is currently a necessity due to the low liquidity of the cryptocurrency markets compared to traditional financial markets. Thus, a limited number of market participants (both individual traders and hedge funds) will be among the first to receive information, enabling them a greater time to react. The issuance of SVN tokens will help create a professional structure for a limited number of traders at first and then, with increasing liquidity in the cryptocurrency markets, for everyone.
 
 **ERC721 Non-Fungible Tokens**
+
 Non Fungible tokens (NFT) are unique collectible items on the blockchain. In addition to token rewards, we are exploring the possibility of offering NFT’s to users. This allows users to collect Svandis NFT’s on their digital blockchain identity, after reaching consensus with other users on the solution. These NFT’s are then collectible, as they are unique to the user and their research accomplishments. NFT’s being rewarded in this context is similar to “badges” users are familiar with collecting in video games. These NFT’s can be left on the users address or traded away to other addresses, and are initially created by the Svandis controlled private key. 
 
 ## ERC20 Micro Rewards on MicroRaiden
