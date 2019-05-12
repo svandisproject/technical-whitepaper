@@ -3,9 +3,9 @@
 
 ## Q1 2018
 ### Data Mining Worker
-* Broke ground on the worker application in PHP. The worker is used to actively query websites that have been tagged by the Svandis Internal team. 
+* Broke ground on the worker application for distributed users to contribute their computing resources. The worker is used to actively query websites that have been tagged by the Svandis Internal team. 
 * When new information is found by a worker, a socket-server confirms the findings and is able to forward them onto the content extractor.
-* The worker allows for outside users to contribute computational resources, thereby allowing for more web sources online to be queried by the system.
+* With outside users to contributing computational resources, more web sources online can be queried by the system.
 
 ### Svandis Frontend
 * The frontend for svandis is an angular application created to act as a dashboard for the many features included within the system.
