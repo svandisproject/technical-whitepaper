@@ -12,7 +12,7 @@
 * It was created in Material Design with friendly login options. It will serve as a platform for the newsfeed, the ICO screeners, alt-coin screeners and up to date information, and blockchain connected modules that serve to keep the platform transparent.
 
 ### Research & Development
-* The team researched originally the data structures that token offerings have in common to create a standardized fact reporting system for blockchain
+* The team researched originally the data structures that token offerings have in common to create a standardized fact reporting system for blockchain.
 * News aggregation and the scraping of data sources was of particular interest in research. 
 
 ## Q2 2018
@@ -22,8 +22,8 @@
 * The Content extractor is meant to integrate natural machine learning to improve the quality of the tags important to users in the newsfeed.
 
 ### Svandis Token Sale Smart Contracts
-* Started working out the Ethereum Based Smart Contracts for Svandis
-* In this quarter, the Svandis token sale protocol was created. The token sale will be tiered and feature a Svandis ERC20 token
+* Started working on the Ethereum Based Smart Contracts for Svandis.
+* In this quarter, the Svandis token sale protocol was created. The token sale will be tiered and feature a Svandis ERC20 token.
 
 ### Whitepaper
 * The original Svandis Whitepaper was released to give prospective ecosystem participants an overview of how Svandis is a unique model for all types of users to gain more knowledge and information within the cryptocurrency space.
@@ -49,7 +49,7 @@
 * Svandis offers a news feed for opinion based information through the use of the content extractor and worker. Svandis offers a database of factual cryptocurrency information through crowdsourced data. Users are incentivized to submit factual information about token offerings and active tokens for example.
 
 ### Svandis Helpdesk
-* Established the Svandis helpdesk to gain users feedback, offer technical support with beta and demo, and offer information on the Svandis upcoming token sale.
+* Established the Svandis helpdesk to gain users feedback, offering technical support with the demo, and offer information on the Svandis upcoming token sale.
 
 ### Customizable Interface
 * Steps were taken to make the frontend more customizable in appearance for the end user. The UI was significantly improved with new features and settings. 
@@ -77,8 +77,8 @@
 * This feature was inspired by Ethereum Improvement Protocol EIP 1078 for Universal Login.
 
 ### Svandis Smart Contract Backend
-* To support the Svandis ecosystem, a set of smart contracts for a blockchain backend were drafted. This backend serves for the primary goal of having users submit signed structured data from their browser, and send it to an express server. Processing this, the express backend creates a pseudo state channel low-gas and highly transparent system for creating and approving crypto currency information.
-* The backends first function is to onboard beginner and expert users onto the blockchain. This is done through a signed message sent from the browser holding the users unique blockchain key. Therefore users can create a decentralized identity and potentially pay Svandis through fiat currency or participation in the platform to take care of gas fees.
+* To support the Svandis ecosystem, a set of smart contracts for a blockchain backend were drafted. This backend serves for the primary goal of having users submit signed structured data from their browser, and send it to a blockchain enabled express server. Processing this, the express backend creates a pseudo state channel low-gas and highly transparent system for creating and approving crypto currency information connected with the Ethereum Blockchain.
+* The backends first function is to onboard beginner and expert users onto the blockchain. This is done through a signed message sent from the browser holding the users unique blockchain key. Therefore users can create a decentralized identity and potentially pay Svandis through fiat currency or participation in the platform to take care of gas fees. This was created on the Kovan network.
 * When the user works on factual information such as the ICO or Alt Coin Screeners, the smart contract backend accepts these structured and signed data sets. The backend has been setup so that when there are active users submitting new ICOs and new changes to token information, there is a mechanism which ensures a consensus was made before submitting it to the network.
 * Information is not always posted directly to the blockchain. Users sign their structured data so that after a consensus is done, they can prove that they were in favour of the consensus for the information. Afterwards as it is a pseudo state channel system, all the information can be compared afterwards and submitted onto the blockchain periodically as required.
 * The smart contract backend is meant to pose no gas cost to end users and have minimum gas costs for Svandis. It is to act as a mechanism to prove which decentralized user submitted factual information and whether to accept it or not.
@@ -105,7 +105,7 @@
 * Improvements for the onboarding tour onto the blockchain. Users connecting their social media accounts will acheive a higher reputation on the network.
 * ICO Screeners built by the Internal Svandis Team will be available to users.
 * Alt Coin Information will be available and allow users to see up to date information of price, volume, price swings.
-* Users are be able to onboard into the blockchain and gain the decentralized identity, to get ready for them to submit data to the consensus mechanism.
+* Users are be able to onboard into the blockchain and gain the decentralized identity, to get ready for them to submit data to the consensus mechanism. More information about blockchain transactions and consensus decisions will be available to ecosystem participants.
 * Decentralized blockchain identity is based on EIP 725 and 735 protocols. These include key management options for users and signing of claims on the blockchain to enable rewards for users verifying their social media.
 * The newsfeed will filter information and allow for customization of the Svandis dashboard and widget.
 
@@ -126,10 +126,10 @@
 * Users using the data mining app will receive token microtransaction token rewards for content successfully found and scraped from web sources.
 
 ### Release version of Data Mining App Available
-* Users will be able to use the data mining app to contribute to the Svandis platform. This will increase the refresh rate of the Newsfeed from a large quantity of news sources.
+* Users will be able to use the data mining app to contribute to the Svandis platform. This will increase the velocity at which new information is available on the Newsfeed from a large quantity of opinion based news sources.
 * Token awards will be available to users offering their computing resources to the Svandis ecosystem.
 
 ### Mobile Responsive Web App
-* The front end currently available in Angular will be ported to also be available on mobile Android and iOS operating systems.
+* The front end currently available in Angular will be ported to also be available on mobile operating systems.
 * Having the Svandis app more accessible will empower cryptocurrency enthusiasts and allow them to receive the latest cryptocurrency information in the moment it happens.
-* Optional notifications will allow users to set alerts when important events like catalysts occur. Such events that can make an economic difference in the value of their blockchain assets.
+* Optional notifications will allow users to set alerts when important events like catalysts occur. Such events can inform traders and allow them to make educated economic decisions in the cryptocurrency space.
